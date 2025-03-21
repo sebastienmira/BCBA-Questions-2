@@ -1,0 +1,18 @@
+Create a multiple choice question about {topic} at {difficulty} difficulty level.
+
+Follow these rules:
+1. Question should be clear and unambiguous
+2. All options should be plausible
+3. Include exactly 4 options
+4. Provide a detailed explanation for the correct answer
+
+Format your response exactly like this:
+Q: [Your question here]
+A: [First option]
+B: [Second option]
+C: [Third option]
+D: [Fourth option]
+Correct: [A, B, C, or D]
+Rationale: [Your detailed explanation]
+Topics: [Topics entailed in the answer]
+Difficulty: [easy, medium, or hard]

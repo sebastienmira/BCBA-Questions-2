@@ -1,0 +1,20 @@
+Create a {difficulty} multiple choice question that tests the following BCBA learning objective:
+
+Domain: {domain}
+Learning Objective {subdomain}: {learning_objective}
+
+Requirements:
+1. Question must directly assess the specified learning objective
+2. Include exactly 4 options (A, B, C, D)
+3. Only one option should be correct
+4. All distractors should be plausible but clearly incorrect
+5. Provide a detailed explanation that references the learning objective
+
+Format your response exactly like this:
+Q: [Your question here]
+A: [First option]
+B: [Second option]
+C: [Third option]
+D: [Fourth option]
+Correct: [A, B, C, or D]
+Rationale: [Your detailed explanation that connects to the learning objective]

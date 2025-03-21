@@ -1,0 +1,20 @@
+Create an EASY multiple choice question that tests the following BCBA learning objective:
+
+Domain: {domain}
+Learning Objective {subdomain}: {learning_objective}
+
+Requirements for Easy Questions:
+1. Focus on basic understanding of the learning objective
+2. Use clear, straightforward language
+3. Test direct recall or simple application
+4. Include exactly 4 options (A, B, C, D)
+5. Distractors should be clearly incorrect to someone who understands the basic concept
+
+Format your response exactly like this:
+Q: [Your question here]
+A: [First option]
+B: [Second option]
+C: [Third option]
+D: [Fourth option]
+Correct: [A, B, C, or D]
+Rationale: [Your detailed explanation that connects to the learning objective]

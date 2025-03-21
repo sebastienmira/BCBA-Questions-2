@@ -1,0 +1,144 @@
+[
+  {
+    "id": "0e00cf61-7b89-4da3-95e2-fde6a82e4f74",
+    "question": "A BCBA is supervising a team of behavior technicians working with a culturally diverse group of clients. One technician frequently shares personal anecdotes about their own cultural background during sessions, which some clients find relatable while others seem uncomfortable. As a BCBA, what steps should you take to address this situation while ensuring culturally responsive service and mitigating the risks associated with multiple relationships?",
+    "options": [
+      "Encourage the technician to continue sharing personal stories to build rapport with clients, as it may enhance their engagement and comfort.",
+      "Discuss the situation with the technician, emphasizing the importance of understanding cultural differences and establishing professional boundaries, while providing guidance on how to maintain a culturally responsive approach.",
+      "Suggest that the technician should only share stories when they believe it will be beneficial, regardless of client reactions, as personal sharing is a common practice in behavior analysis.",
+      "Recommend that the technician stop sharing personal anecdotes entirely to avoid any potential discomfort among clients, focusing solely on the clients' needs and goals."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B is the correct answer as it emphasizes the importance of discussing the implications of personal sharing within a professional context while recognizing cultural differences. This aligns with the learning objectives E10 and E7, as it promotes culturally responsive and inclusive service while addressing the risks of multiple relationships by establishing professional boundaries. Option A reflects a misunderstanding of the need for professional boundaries, while Option C downplays the importance of client comfort and cultural sensitivity. Option D, while addressing discomfort, fails to acknowledge that sharing personal experiences can sometimes be beneficial when done appropriately and with sensitivity to the client's perspective.",
+    "domain": [
+      "Ethical and Professional Issues"
+    ],
+    "subdomain": [
+      "E10",
+      "E7"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    }
+  },
+  {
+    "id": "44059530-c3ac-4673-8487-4e5c35bafecb",
+    "question": "A behavior analyst is conducting a single-case experimental design to assess the effectiveness of a new intervention aimed at reducing tantrum behavior in a child with autism. The analyst collects baseline data for two weeks, implements the intervention for three weeks, and then returns to baseline conditions for one week. During the intervention phase, the analyst observes a significant decrease in tantrum frequency. However, upon returning to baseline, the tantrum frequency increases again to levels similar to the initial baseline. What can the analyst conclude about the intervention based on the data collected?",
+    "options": [
+      "The intervention is effective since it decreased tantrum behavior during its implementation phase.",
+      "The intervention may not be effective since the behavior returned to baseline levels after withdrawal.",
+      "The intervention is ineffective because the behavior did not maintain at lower levels after the intervention ended.",
+      "The results are inconclusive due to the lack of replication of the intervention phase."
+    ],
+    "correct_answer": 1,
+    "rationale": "The scenario illustrates the defining features of single-case experimental designs, including the use of individuals as their own controls and repeated measures. The analyst observed a clear effect of the intervention, as evidenced by the decrease during the intervention phase, but the return to baseline levels upon withdrawal indicates that the intervention may not have a lasting effect. This conclusion aligns with the principle of verification in single-case designs, where the return to baseline suggests that the intervention was responsible for the change in behavior, but not necessarily effective in producing a long-term change. Option A reflects a misunderstanding as it overlooks the importance of behavior maintenance post-intervention. Option C incorrectly assumes that the intervention is ineffective without considering the context of the withdrawal phase. Option D misinterprets the requirements for establishing experimental control, as the return to baseline is a critical component of assessing the intervention's impact.",
+    "domain": [
+      "Experimental Design"
+    ],
+    "subdomain": [
+      "D6",
+      "D4"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    }
+  },
+  {
+    "id": "7df5013d-0083-46a1-bfff-4d9caa873300",
+    "question": "When a child frequently shouts in class to gain attention, which of the following is a socially valid alternative behavior that could be taught to replace shouting?",
+    "options": [
+      "Raising their hand to speak",
+      "Yelling louder than their peers",
+      "Making distracting noises",
+      "Ignoring the teacher's instructions"
+    ],
+    "correct_answer": 0,
+    "rationale": "Raising their hand to speak is a socially valid alternative behavior that allows the child to gain attention in an appropriate manner. It directly addresses the need for attention while promoting positive classroom behavior, aligning with the learning objective of selecting an appropriate alternative behavior when decreasing a target behavior. The other options do not provide a suitable or socially acceptable alternative.",
+    "domain": [
+      "Selecting and Implementing Interventions"
+    ],
+    "subdomain": [
+      "H3"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    }
+  },
+  {
+    "id": "3adfa8f8-fdbf-4420-b4ce-54c09ea1905f",
+    "question": "What is a motivating operation in the context of behavior-change procedures?",
+    "options": [
+      "A change in the environment that makes a reinforcer more or less valuable.",
+      "A signal that indicates when a specific behavior will be reinforced.",
+      "A type of reinforcement that is provided after a behavior occurs.",
+      "A method for punishing undesirable behaviors."
+    ],
+    "correct_answer": 0,
+    "rationale": "A motivating operation refers to factors that influence the effectiveness of a reinforcer, either increasing or decreasing its value. This concept is essential for understanding how to effectively incorporate motivating operations into behavior-change procedures, as it directly affects the likelihood of a behavior occurring. Options B, C, and D do not accurately describe motivating operations and instead refer to other concepts in behavior analysis.",
+    "domain": [
+      "Behavior-Change Procedures"
+    ],
+    "subdomain": [
+      "G5"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    }
+  },
+  {
+    "id": "8f38fd2c-c52d-4430-8a06-349ec070c077",
+    "question": "Which type of reinforcement schedule involves presenting two or more schedules of reinforcement at the same time, where the individual can choose which schedule to respond to?",
+    "options": [
+      "Concurrent schedule",
+      "Chained schedule",
+      "Mixed schedule",
+      "Multiple schedule"
+    ],
+    "correct_answer": 0,
+    "rationale": "A concurrent schedule of reinforcement allows an individual to choose between two or more options for reinforcement, making it distinct from chained, mixed, and multiple schedules. Chained schedules involve a sequence of behaviors, mixed schedules present different schedules one after another, and multiple schedules involve alternating between different schedules but not simultaneously.",
+    "domain": [
+      "Concepts and Principles"
+    ],
+    "subdomain": [
+      "B10"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+Create a MEDIUM difficulty multiple choice question that tests the following BCBA learning objective:
+
+Domain: {domain}
+Learning Objective {subdomain}: {learning_objective}
+
+Requirements for Medium Questions:
+1. Require application or analysis of the learning objective, rather than simple recall.
+2. Integrate 2-3 related principles to increase complexity.
+3. Include a realistic scenario that requires multi-step problem solving.
+4. Have exactly 4 answer choices (A, B, C, D) where:
+- The correct answer is clearly supported by behavioral principles.
+- The distractors reflect common misconceptions or partial misunderstandings.
+
+Format your response exactly like this:
+Q: [Your question here]
+A: [First option]
+B: [Second option]
+C: [Third option]
+D: [Fourth option]
+Correct: [A, B, C, or D]
+Rationale: [Your detailed explanation that connects to the learning objective]

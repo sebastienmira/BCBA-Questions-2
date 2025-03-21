@@ -1,0 +1,22 @@
+Create a HARD multiple choice question that tests the following BCBA learning objective:
+
+Domains: {domain}
+Learning objectives: {learning_objective}
+
+Requirements for Hard Questions:
+1. Integrate concepts from ALL listed learning objectives.
+2. Test complex application of the learning objectives, requiring deep analysis.
+3. Integrate multiple behavioral concepts across the domains to assess advanced understanding.
+4. Include a detailed, multi-step scenario that challenges the test-taker to apply principles in a nuanced way.
+5. Include exactly 4 options (A, B, C, D) where:
+- The correct answer is unambiguous and supported by behavioral principles.
+- The distractors are sophisticated misconceptions, requiring careful discrimination.
+
+Format your response exactly like this:
+Q: [Your question here]
+A: [First option]
+B: [Second option]
+C: [Third option]
+D: [Fourth option]
+Correct: [A, B, C, or D]
+Rationale: [Your detailed explanation that connects to the learning objectives]
