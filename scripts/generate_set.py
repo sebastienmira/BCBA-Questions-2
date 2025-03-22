@@ -124,6 +124,6 @@ if __name__ == "__main__":
     
     generate_set(
         question_generator=question_generator,
-        num_questions=5,
-        file_name="test_set.json"
+        num_questions=1,
+        file_name="test_set_2.json"
     )

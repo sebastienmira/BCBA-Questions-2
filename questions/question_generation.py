@@ -1,3 +1,5 @@
+import sys
+sys.path.append("..")
 from questions.config import PROMPTS_DIR
 from pathlib import Path
 from questions.model import Model, OPENAIKeys
@@ -7,7 +9,7 @@ import uuid
 from dataclasses import dataclass
 from typing import List
 import random
-
+from questions.sample_learning_topics import get_learning_objectives
 
 def get_prompt(prompt_name: str) -> str:
     """Get a prompt from the prompts directory."""
@@ -57,97 +59,8 @@ class QuestionGenerator:
             "max_tokens": max_tokens,
             **kwargs
         }
-
-    def get_learning_objectives(self, domain: str, subdomain: str = None, difficulty: str = "medium") -> dict:
-        """Get learning objectives based on difficulty level and domain.
-        
-        Args:
-            domain: The primary domain from BCBA topics
-            subdomain: Optional specific subdomain code (e.g., "B1"). If None, randomly selected
-            difficulty: Difficulty level determining number of learning objectives:
-                      - "easy": 1 learning objective from specified domain
-                      - "medium": 2-3 learning objectives from same domain
-                      - "hard": learning objectives from 2 different domains
-        
-        Returns:
-            dict: A dictionary containing:
-                - 'domains': List of domains used
-                - 'subdomains': List of subdomains used
-                - 'objectives': Dictionary mapping subdomain codes to their learning objectives
-        
-        Raises:
-            ValueError: If domain or subdomain is invalid
-        """
-        # Validate primary domain
-        if domain not in TOPICS:
-            raise ValueError(f"Invalid domain: {domain}\n"
-                            f"Valid domains: {list(TOPICS.keys())}")
-        
-        # Initialize return structure
-        result = {
-            'domains': [domain],
-            'subdomains': [],
-            'objectives': {}
-        }
-        
-        # Handle subdomain selection based on difficulty
-        if difficulty.lower() == "easy":
-            # For easy, get single subdomain
-            if not subdomain:
-                subdomain = random.choice(list(TOPICS[domain].keys()))
-            elif subdomain not in TOPICS[domain]:
-                raise ValueError(f"Invalid subdomain: {subdomain}\n"
-                               f"Valid subdomains: {list(TOPICS[domain].keys())}")
-            result['subdomains'] = [subdomain]
-            result['objectives'][subdomain] = TOPICS[domain][subdomain]
-
-        elif difficulty.lower() == "medium":
-            # For medium, get 2-3 subdomains from same domain
-            if not subdomain:
-                # If no subdomain specified, randomly select 2-3 subdomains
-                num_subdomains = random.randint(2, 3)
-                selected_subdomains = random.sample(list(TOPICS[domain].keys()), num_subdomains)
-            else:
-                # If subdomain specified, validate and add 1-2 more
-                if subdomain not in TOPICS[domain]:
-                    raise ValueError(f"Invalid subdomain: {subdomain}\n"
-                                   f"Valid subdomains: {list(TOPICS[domain].keys())}")
-                available_subdomains = [s for s in TOPICS[domain].keys() if s != subdomain]
-                additional_count = random.randint(1, 2)
-                additional_subdomains = random.sample(available_subdomains, additional_count)
-                selected_subdomains = [subdomain] + additional_subdomains
-            
-            result['subdomains'] = selected_subdomains
-            result['objectives'].update({sub: TOPICS[domain][sub] for sub in selected_subdomains})
-
-        elif difficulty.lower() == "hard":
-            # For hard, get objectives from two domains
-            # Get primary domain objective
-            if not subdomain:
-                subdomain = random.choice(list(TOPICS[domain].keys()))
-            elif subdomain not in TOPICS[domain]:
-                raise ValueError(f"Invalid subdomain: {subdomain}\n"
-                               f"Valid subdomains: {list(TOPICS[domain].keys())}")
-            
-            # Get additional domain and its random subdomain
-            available_domains = [d for d in TOPICS.keys() if d != domain]
-            additional_domain = random.choice(available_domains)
-            additional_subdomain = random.choice(list(TOPICS[additional_domain].keys()))
-            
-            result['domains'].append(additional_domain)
-            result['subdomains'] = [subdomain, additional_subdomain]
-            result['objectives'].update({
-                subdomain: TOPICS[domain][subdomain],
-                additional_subdomain: TOPICS[additional_domain][additional_subdomain]
-            })
-        
-        else:
-            raise ValueError(f"Invalid difficulty: {difficulty}\n"
-                            f"Must be one of: ['easy', 'medium', 'hard']")
-        
-        return result
     
-    def generate_question(self, domain: str, subdomain: str=None, difficulty: str = "medium") -> MCQuestion:
+    def generate_question(self, domain: str, difficulty: str = "medium") -> MCQuestion:
         """Generate a multiple choice question.
         
         Args:
@@ -157,7 +70,7 @@ class QuestionGenerator:
         Returns:
             A multiple choice question as a MCQuestion object
         """
-        objectives = self.get_learning_objectives(domain, subdomain, difficulty)
+        objectives = get_learning_objectives(main_domain = domain, difficulty = difficulty)
 
         domain = objectives["domains"]
         subdomain = objectives["subdomains"]
@@ -167,6 +80,8 @@ class QuestionGenerator:
         user_prompt = get_prompt(user_prompt_file)
         user_prompt = user_prompt.format(domain=domain, subdomain=subdomain, learning_objective=learning_objective, difficulty=difficulty)
 
+        print(user_prompt)
+        exit()
         response = self.model.get_completion(
             **self.model_params,
             messages=[
@@ -219,3 +134,6 @@ class QuestionGenerator:
             model_params = self.model_params,
             prompts = {"system_prompt":self.prompts["system_prompt"], "user_prompt":user_prompt_file}
         )
+    
+gen = QuestionGenerator()
+print(gen.generate_question("E", "medium"))

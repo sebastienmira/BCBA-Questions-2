@@ -135,6 +135,8 @@ TOPIC_MAPPING = {
     "Personnel Supervision and Management": "I"
 }
 
+LETTER_TO_DOMAIN = {v:k for k,v in TOPIC_MAPPING.items()}
+
 TOPIC_RELATIONS = {
     "A": [],
     "B": ["C", "D", "E"],
