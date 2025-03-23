@@ -1,0 +1,35 @@
+Create a MEDIUM difficulty multiple choice question that tests the following BCBA learning objective:
+
+Domain: {domain}
+Learning Objective {subdomain}: {learning_objective}
+
+Requirements for Medium Questions:
+1. Require application or analysis of the learning objective (Bloom’s Taxonomy: "Apply" or "Analyze").
+2. Integrate 2-3 related principles to increase complexity.
+3. Include a realistic scenario that requires multi-step problem solving.
+4. Provide exactly 4 answer choices.
+5. The correct answer is clearly supported by behavioral principles.
+6. The distractors reflect common misconceptions or partial misunderstandings.
+
+Parse the multiple choice questions into the following JSON format:
+{{
+  "question": "str",  
+  "options": ["str", "str", "str", "str"],  
+  "correct_answer": int,  # Index (0-3) of the correct answer  
+  "rationale": "str",  # Brief explanation of why the correct answer is right  
+  "bloom_taxonomy": "str"  # One of: ["Remember", "Understand", "Apply", "Analyze", "Evaluate", "Create"]  
+}}
+
+Example Output:
+{{
+  "question": "Marcus, a BCBA, is working with a student named Ellie. Ellie previously received praise for raising her hand (operant behavior) in class, but the teacher has now stopped providing praise, resulting in Ellie no longer raising her hand. Additionally, Ellie used to blink whenever a loud bell rang (respondent behavior), but after repeated exposure to the bell without any significant consequence, Ellie no longer blinks at the sound. Marcus observes these two scenarios. Which of the following statements correctly identifies the behavioral processes demonstrated in these scenarios?",
+  "options": [
+    "Both scenarios illustrate operant extinction because reinforcement was withheld, causing the behaviors to decrease.",
+    "Both scenarios illustrate respondent extinction because previously conditioned stimuli no longer elicit responses.",
+    "Raising her hand illustrates operant extinction due to withholding reinforcement, while blinking illustrates respondent extinction due to repeated exposure to the conditioned stimulus without pairing.",
+    "Raising her hand illustrates respondent extinction because the behavior is no longer elicited, while blinking illustrates operant extinction because the behavior decreased due to lack of reinforcement."
+  ],
+  "correct_answer": 2,
+  "rationale": "Raising her hand is an operant behavior previously reinforced by praise; when praise (reinforcement) is withheld, the behavior decreases, demonstrating operant extinction. Blinking in response to a loud bell is a respondent behavior elicited by a conditioned stimulus (the bell). After repeated presentations of the conditioned stimulus (bell) without pairing with an unconditioned stimulus, the conditioned response (blinking) decreases, demonstrating respondent extinction. Option A incorrectly labels respondent extinction as operant extinction. Option B incorrectly labels operant extinction as respondent extinction. Option D reverses the correct identification of each extinction type.",
+  "bloom_taxonomy": "Analyze"
+}}

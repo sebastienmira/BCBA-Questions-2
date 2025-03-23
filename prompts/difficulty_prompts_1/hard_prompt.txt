@@ -1,0 +1,36 @@
+Create a HARD multiple choice question that tests the following BCBA learning objective:
+
+Domains: {domain}
+Learning objectives: {learning_objective}
+
+Requirements for Hard Questions:
+1. Integrate concepts from ALL listed learning objectives.
+2. Test complex application of the learning objectives, requiring deep analysis (Bloom’s Taxonomy: "Analyze", "Evaluate", "Create")
+3. Integrate multiple behavioral concepts across the domains to assess advanced understanding.
+4. Include a detailed, multi-step scenario that challenges the test-taker to apply principles in a nuanced way.
+5. Include exactly 4 options.
+6. The correct answer is unambiguous and supported by behavioral principles.
+7. The distractors are sophisticated misconceptions, requiring careful discrimination.
+
+Parse the multiple choice questions into the following JSON format:
+{{
+  "question": "str",  
+  "options": ["str", "str", "str", "str"],  
+  "correct_answer": int,  # Index (0-3) of the correct answer  
+  "rationale": "str",  # Brief explanation of why the correct answer is right  
+  "bloom_taxonomy": "str"  # One of: ["Remember", "Understand", "Apply", "Analyze", "Evaluate", "Create"]  
+}}
+
+Example Output:
+{{
+"question": "Dr. Ramirez designs a study to examine the effectiveness of a reinforcement-based intervention on increasing cooperative play in preschoolers. She conducts the study in a highly controlled, university-based laboratory setting, using graduate students as interventionists who strictly follow scripted protocols. After obtaining significant results, she immediately recommends that preschool teachers implement the same intervention in their classrooms without further modification or testing. Which statement best analyzes Dr. Ramirez's recommendation, considering both internal and external validity and the distinctions among behaviorism, experimental analysis of behavior (EAB), applied behavior analysis (ABA), and professional practice guided by behavior analysis?",
+"options": [
+    "Dr. Ramirez's recommendation is appropriate because the controlled laboratory conditions ensured high internal validity, and thus, the intervention will reliably generalize to preschool classrooms, aligning with the practical goals of professional behavior analytic practice.",
+    "Dr. Ramirez's recommendation is flawed because, although the controlled laboratory setting ensured high internal validity characteristic of experimental analysis of behavior, it compromised external validity, limiting generalizability to applied settings; thus, further analysis and adaptation are necessary before professional practice implementation.",
+    "Dr. Ramirez's recommendation is justified because behaviorism emphasizes the universality of behavioral principles; hence, high internal validity in laboratory research guarantees external validity, making immediate implementation in applied settings appropriate.",
+    "Dr. Ramirez's recommendation is incorrect because applied behavior analysis prioritizes external validity over internal validity; thus, any intervention tested in a controlled laboratory setting inherently lacks internal validity and should never be directly implemented in professional practice."
+],
+"correct_answer": 1,
+"rationale": "Option B correctly identifies that although high internal validity was achieved through strict laboratory controls (characteristic of experimental analysis of behavior), external validity (generalizability to real-world settings) is compromised. Dr. Ramirez's immediate recommendation for direct implementation in preschool classrooms without additional testing or adaptation ignores critical differences between controlled laboratory contexts and applied settings. Furthermore, this answer correctly distinguishes among the experimental analysis of behavior (highly controlled laboratory research emphasizing internal validity), applied behavior analysis (research conducted in applied settings emphasizing socially significant behaviors and external validity), and professional practice guided by behavior analysis (application of empirically validated interventions adapted to natural settings). Option A incorrectly assumes generalization from laboratory to classroom without further testing. Option C inaccurately asserts behaviorism guarantees external validity based solely on internal validity. Option D mistakenly claims ABA inherently lacks internal validity and prioritizes external validity exclusively, which is inaccurate.",
+"bloom_taxonomy": "Analyze"
+}}
