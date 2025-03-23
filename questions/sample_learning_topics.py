@@ -1,6 +1,5 @@
-from questions.bcba_outline import TOPIC_MAPPING, LETTER_TO_DOMAIN, TOPIC_RELATIONS, TOPICS
+from questions.bcba_outline import TOPIC_MAPPING, LETTER_TO_DOMAIN, TOPIC_RELATIONS, TOPICS, SUBDOMAINS
 import random
-SUBDOMAINS = {k:v for subdomain in TOPICS.values() for k,v in subdomain.items()}
 
 def sample_secondary_domain(main_domain: str):
     """

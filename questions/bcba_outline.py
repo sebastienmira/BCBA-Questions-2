@@ -148,3 +148,5 @@ TOPIC_RELATIONS = {
     "H": ["E", "F", "G"],
     "I": ["E", "F", "G"]
 }
+
+SUBDOMAINS = {k:v for subdomain in TOPICS.values() for k,v in subdomain.items()}

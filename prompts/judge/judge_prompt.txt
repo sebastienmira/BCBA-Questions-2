@@ -1,0 +1,40 @@
+Return your response in valid JSON format without any extra text.
+
+---
+
+Question Information:
+Question: {question}
+Options: {options}
+Correct Answer Index: {correct_answer}
+Rationale: {rationale}
+Domain: {domain}
+Subdomain: {subdomain}
+Difficulty: {cat_difficulty}
+Bloom Taxonomy Level: {bloom_taxonomy}
+
+---
+
+### Evaluation Criteria (Rate from 1-5):
+- overall_quality: (1 = very poor, 5 = excellent)
+- topic_alignment: (1 = off-topic, 5 = highly relevant to the domain and subdomain)
+- answer_correctness: (1 = incorrect, 5 = completely correct)
+- difficulty_appropriateness: (1 = too easy/hard, 5 = well-calibrated)
+- question_clarity: (1 = confusing, 5 = very clear)
+- distractor_quality: (1 = poor distractors, 5 = strong distractors)
+- explanation_quality: (1 = weak explanation, 5 = well-supported)
+- is_acceptable: (true/false) #is this an acceptable BCBA certification question?
+
+Additionally, provide short justifications for each score.
+
+Output Format:
+{{
+  "overall_quality": <integer>,
+  "topic_alignment": <integer>,
+  "answer_correctness": <integer>,
+  "difficulty_appropriateness": <integer>,
+  "question_clarity": <integer>,
+  "distractor_quality": <integer>,
+  "explanation_quality": <integer>,
+  "is_acceptable": <boolean>,
+  "justification": <string>
+}}
