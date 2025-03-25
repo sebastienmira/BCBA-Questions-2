@@ -7,8 +7,8 @@ class Judge:
         self.model = Model()
         
     def judge(self, question: MCQuestion) -> bool:
-        system_prompt = get_prompt("judge/judge_system_prompt.txt")
-        prompt = get_prompt("judge/judge_prompt.txt")
+        system_prompt = get_prompt("judge/judge_system_prompt_1.txt")
+        prompt = get_prompt("judge/judge_prompt_1.txt")
         subdomain = [SUBDOMAINS[subdomain] for subdomain in question.subdomain]
         prompt = prompt.format(question=question.question, options=question.options, correct_answer=question.correct_answer, rationale=question.rationale, domain=question.domain, subdomain=subdomain, cat_difficulty=question.cat_difficulty, bloom_taxonomy=question.bloom_taxonomy)
         

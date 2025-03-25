@@ -1,0 +1,1734 @@
+[
+  {
+    "id": "01d725c5-ae57-4b41-bf0c-6ad0f3080d2d",
+    "question": "A BCBA is supervising a team of therapists working with children with autism. During a performance review, one therapist consistently demonstrates difficulty in implementing behavior intervention plans (BIPs) effectively. The BCBA decides to conduct a performance diagnostic to identify the underlying issues. After observing the therapist's sessions, the BCBA notes that the therapist often fails to reinforce desired behaviors consistently and misidentifies the function of challenging behaviors. Which of the following actions should the BCBA prioritize to address the therapist's performance issues while ensuring that the intervention is grounded in behaviorism and the principles of applied behavior analysis?",
+    "options": [
+      "Implement a comprehensive training program on the principles of reinforcement and functional behavior assessment, followed by an observation of the therapist implementing a new BIP.",
+      "Recommend that the therapist shadow a more experienced therapist for several weeks to learn effective strategies for implementing BIPs.",
+      "Conduct a formal evaluation of the therapist's overall performance, focusing solely on their ability to implement BIPs without considering the underlying behavioral principles.",
+      "Suggest that the therapist read literature on behaviorism and functional analysis independently to improve their understanding of behavior change techniques."
+    ],
+    "correct_answer": 0,
+    "rationale": "The correct answer is A because it integrates a function-based approach by providing targeted training on reinforcement and functional behavior assessment, which addresses the specific issues observed in the therapist's implementation of BIPs. This aligns with the learning objective A4, as it distinguishes applied behavior analysis principles from general behaviorism by emphasizing the application of these principles in practice. Option B, while beneficial, does not directly address the identified performance issues through a structured training approach. Option C fails to incorporate a behavior analytic framework by not considering the underlying behavioral principles, and option D lacks the interactive and supervised application necessary for skill development, thereby neglecting the importance of direct supervision and feedback in behavior management.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations",
+      "Personnel Supervision and Management"
+    ],
+    "subdomain": [
+      "A4",
+      "I6"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "c739d459-cc6d-43e8-8bd8-2866e7b553ab",
+    "question": "Which of the following is a requirement for delivering behavior-analytic services according to legal and regulatory standards?",
+    "options": [
+      "Obtaining informed consent from clients before starting services",
+      "Providing services only to clients who request them without any documentation",
+      "Ignoring confidentiality when discussing cases with colleagues",
+      "Charging clients based on the number of sessions attended"
+    ],
+    "correct_answer": 0,
+    "rationale": "Obtaining informed consent is a fundamental ethical and legal requirement in the practice of behavior analysis. It ensures that clients are fully informed about the services they will receive and agree to them, which aligns with the ethical principles governing the delivery of behavior-analytic services. Options B, C, and D do not reflect proper legal or ethical practices in behavior analysis.",
+    "domain": [
+      "Ethical and Professional Issues"
+    ],
+    "subdomain": [
+      "E12"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    },
+    "bloom_taxonomy": "Understand"
+  },
+  {
+    "id": "88b2325e-743f-4fa6-b587-93e72ee49ef2",
+    "question": "Which of the following best describes the primary purpose of the BACB ethics codes?",
+    "options": [
+      "To outline procedures for conducting experimental research",
+      "To provide guidelines for ethical and professional behavior of certificants",
+      "To specify methods for teaching new skills to clients",
+      "To detail techniques for data collection and analysis"
+    ],
+    "correct_answer": 1,
+    "rationale": "The BACB ethics codes serve as guidelines for ethical and professional conduct for behavior analysts. They help certificants make ethical decisions and maintain professional standards. Options A, C, and D describe important aspects of ABA practice but are not the primary purpose of the ethics codes.",
+    "domain": [
+      "Ethical and Professional Issues"
+    ],
+    "subdomain": [
+      "E1"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    },
+    "bloom_taxonomy": "Understand"
+  },
+  {
+    "id": "ffbd1101-e35a-4b8d-8011-e5bbeb418729",
+    "question": "A BCBA is designing an intervention to decrease a client's frequent out-of-seat behavior during class. Which of the following behavior-change procedures would be most appropriate to use in this situation?",
+    "options": [
+      "Differential Reinforcement of Other Behavior (DRO)",
+      "Non-contingent Reinforcement (NCR)",
+      "Differential Reinforcement of Alternative Behavior (DRA)",
+      "Functional Communication Training (FCT)"
+    ],
+    "correct_answer": 2,
+    "rationale": "The most appropriate procedure to decrease the client's out-of-seat behavior while promoting an alternative appropriate behavior is Differential Reinforcement of Alternative Behavior (DRA). DRA involves reinforcing a desirable behavior that serves as an alternative to the problem behavior. In this case, the BCBA could reinforce staying in the seat and engaging in class activities, which would serve as an alternative to out-of-seat behavior.",
+    "domain": [
+      "Behavior-Change Procedures"
+    ],
+    "subdomain": [],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "mistral-large-latest",
+      "temperature": 0.2,
+      "max_tokens": 1024
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Apply"
+  },
+  {
+    "id": "e78e0cb5-4098-447b-a87e-4316c8eb9b99",
+    "question": "A BCBA is consulting at a school and observes a student, Liam, who frequently engages in off-task behaviors (e.g., staring out the window, doodling) during independent math assignments. The BCBA hypothesizes that Liam's off-task behaviors are maintained by automatic reinforcement, as they occur consistently regardless of teacher attention or peer interactions. To accurately measure Liam's off-task behavior, the BCBA designs a discontinuous measurement procedure. She selects momentary time sampling with 1-minute intervals during 20-minute math sessions. After two weeks, the data indicate that Liam is off-task during approximately 65% of sampled intervals. Liam's teacher argues that the data underestimate the true occurrence of off-task behaviors because Liam often returns to task briefly when the timer beeps. Considering radical behaviorism and measurement principles, how should the BCBA respond to the teacher's concern?",
+    "options": [
+      "Agree with the teacher and switch to partial interval recording, as it captures any occurrence of off-task behavior within intervals, aligning better with radical behaviorism's emphasis on observable events.",
+      "Explain that momentary time sampling provides an unbiased estimate of behavior occurrence over time, consistent with radical behaviorism's focus on observable events, and suggest adjusting the interval length to improve accuracy.",
+      "Disagree and maintain the current measurement procedure, emphasizing that radical behaviorism prioritizes internal states and momentary time sampling accurately captures Liam's internal distractions.",
+      "Agree partially and suggest switching to whole interval recording, as it aligns with radical behaviorism by requiring the behavior to occur throughout the entire interval, thus providing a more accurate measure of automatic reinforcement."
+    ],
+    "correct_answer": 1,
+    "rationale": "Momentary time sampling is a discontinuous measurement procedure that provides an unbiased estimate of behavior occurrence, especially for behaviors that occur at moderate to high rates. The teacher's concern that Liam briefly returns to task at the beep is valid, as momentary time sampling may underestimate behaviors that are brief or intermittent. However, radical behaviorism emphasizes observable and measurable events rather than internal states or inferred processes. Therefore, the BCBA should acknowledge the teacher's concern and suggest adjusting the interval length (e.g., shortening intervals) to increase accuracy. Option A (partial interval recording) would overestimate behavior occurrence, not providing an accurate representation. Option C incorrectly claims radical behaviorism prioritizes internal states, which it explicitly does not. Option D (whole interval recording) would significantly underestimate the behavior, as it requires the behavior to occur continuously throughout the interval, which is inappropriate for brief, intermittent behaviors.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations",
+      "Measurement, Data Display, and Interpretation"
+    ],
+    "subdomain": [
+      "A3",
+      "C6"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "94e051e4-6c9f-4905-a946-d35b369ab80c",
+    "question": "A school psychologist is conducting a functional behavior assessment (FBA) for a student exhibiting disruptive behavior in the classroom. During interviews with the student's parents, the psychologist learns that the family has cultural practices that emphasize respect for authority and discourage open discussion of personal feelings. Considering this information, which of the following actions should the psychologist take to ensure the assessment is culturally sensitive and effective?",
+    "options": [
+      "Use standardized assessment tools without modification, as they provide objective data that is universally applicable.",
+      "Adapt the assessment process to include culturally relevant questions and allow for family input in the development of interventions.",
+      "Focus solely on the student's behavior in the classroom and disregard the cultural context, as behavior is universal and not influenced by culture.",
+      "Refer the family to a cultural liaison and avoid conducting the assessment until the family is comfortable discussing their cultural beliefs."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B is correct because it emphasizes the importance of integrating cultural variables into the assessment process, aligning with learning objectives F7 and F2. By adapting the assessment to include culturally relevant questions and allowing family input, the psychologist can gather more meaningful data that respects the family's cultural context. Option A reflects a misconception that standardized tools are universally applicable without consideration of cultural differences. Option C incorrectly assumes that behavior is not influenced by cultural context, which undermines the importance of a culturally sensitive approach. Option D, while well-intentioned, does not address the immediate need for assessment and may delay necessary interventions.",
+    "domain": [
+      "Behavior Assessment"
+    ],
+    "subdomain": [
+      "F7",
+      "F2"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "771cae46-ca3d-4aaf-86cb-3d82b7a9ca3f",
+    "question": "A BCBA attends a professional development workshop focused on advanced behavioral philosophy and ethics. During a case study analysis, the presenter describes a scenario where a BCBA, confronted with a complex behavioral issue, chooses a complicated intervention based on personal intuition and past anecdotal successes rather than systematically analyzing behavioral data. The presenter challenges attendees to critique this BCBA\u2019s approach from the philosophical assumptions underlying behavior analysis and ethical guidelines for competence. Which critique best integrates both philosophical assumptions and ethical standards?",
+    "options": [
+      "The BCBA violated determinism by relying on intuition rather than analyzing observable and measurable data, thus compromising the ethical standard of maintaining competence through empirical decision-making.",
+      "The BCBA overlooked pragmatism by selecting complicated interventions that were not practical or effective, which ethically compromised the commitment to professional development and continuous improvement.",
+      "The BCBA disregarded parsimony by choosing a complex intervention without first ruling out simpler, empirically supported methods, thereby failing ethically to uphold competence through evidence-based practice.",
+      "The BCBA neglected selectionism by not systematically evaluating the intervention\u2019s effectiveness over time, thus violating ethical standards for professional development and ongoing evaluation of competence."
+    ],
+    "correct_answer": 2,
+    "rationale": "The correct answer is C. Parsimony is a fundamental philosophical assumption in behavior analysis, emphasizing the necessity to rule out simpler explanations or interventions before adopting more complex ones. By choosing an overly complicated intervention based solely on intuition and anecdotal experience, the BCBA disregarded this principle. Additionally, ethical standards mandate that behavior analysts maintain competence by continually engaging in professional development activities and adhering to evidence-based practices. Failing to prioritize simpler, empirically supported interventions first violates both the philosophical assumption of parsimony and the ethical requirement to maintain professional competence through evidence-based decision-making. Options A, B, and D contain sophisticated misconceptions: determinism (A) involves the lawful and causal nature of behavior, pragmatism (B) emphasizes practical outcomes, and selectionism (D) pertains to the evolutionary selection of behavior based on consequences. While these concepts are important, the scenario specifically highlights the neglect of parsimony and ethical obligation to evidence-based practice, making C the most precise and accurate critique.",
+    "domain": [
+      "Ethical and Professional Issues",
+      "Behaviorism and Philosophical Foundations"
+    ],
+    "subdomain": [
+      "E3",
+      "A2"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Evaluate"
+  },
+  {
+    "id": "6d06e229-f18c-4281-81e5-c53187bcf62e",
+    "question": "A BCBA is conducting a group supervision session with their team of RBTs. During the session, one of the RBTs shares a challenging behavior exhibited by a client and asks for advice. Which of the following actions by the BCBA is most aligned with effective personnel supervision and management practices?",
+    "options": [
+      "Provide a detailed protocol for the RBT to follow and instruct them to report back next week.",
+      "Ask the RBT to share their own ideas for addressing the behavior first, then provide guidance and collaboratively develop a plan.",
+      "Suggest that the RBT consult with another RBT who has more experience with this type of behavior.",
+      "Recommend that the RBT attend a workshop on challenging behaviors to gain more knowledge."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B is most aligned with effective personnel supervision and management practices because it empowers the RBT to think critically and contributes to their professional development. The BCBA uses the supervision session as an opportunity to foster a collaborative and problem-solving environment. This approach encourages the RBT to actively participate in the planning process, rather than merely following a predetermined protocol (Option A). While Options C and D may provide additional support and knowledge, they do not necessarily promote the RBT's ability to analyze and address client needs under the guidance of the BCBA. By encouraging the RBT to share their ideas first, the BCBA can better understand their team's strengths and areas for growth, ultimately enhancing the quality of services provided to clients.",
+    "domain": [
+      "Personnel Supervision and Management"
+    ],
+    "subdomain": [],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "mistral-large-latest",
+      "temperature": 0.2,
+      "max_tokens": 1024
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "2d3a8cf4-47d1-44c3-91a6-9840d2953fa2",
+    "question": "A researcher is interested in evaluating the effectiveness of a new behavioral intervention designed to reduce aggressive behaviors in a classroom setting. They decide to implement a reversal design (ABAB) where the baseline (A) phase consists of no intervention, followed by the intervention (B) phase, then returning to the baseline, and finally reintroducing the intervention. During the first B phase, the researcher observes a significant decrease in aggressive behaviors. However, during the second A phase, the aggressive behaviors do not return to baseline levels. Which of the following conclusions can the researcher most appropriately draw from this scenario?",
+    "options": [
+      "The intervention is effective because aggressive behaviors decreased during the first B phase.",
+      "The intervention is ineffective because aggressive behaviors did not return to baseline levels during the second A phase.",
+      "The results suggest that the intervention may have a lasting effect even after withdrawal, indicating potential maintenance of behavior change.",
+      "The researcher should switch to a multiple-baseline design to confirm the effectiveness of the intervention across different subjects."
+    ],
+    "correct_answer": 2,
+    "rationale": "The scenario illustrates a reversal design where the researcher initially observed a decrease in aggressive behaviors during the first intervention phase. However, the lack of return to baseline levels in the second A phase suggests that the intervention may have produced a lasting effect on behavior. This aligns with the principles of single-case experimental designs, which allow for the assessment of individual behavior changes over time. While option A reflects an observation of effectiveness, it does not account for the lack of return to baseline in the second A phase. Option B incorrectly concludes the intervention's ineffectiveness based solely on the second A phase results. Option D suggests a shift to a multiple-baseline design, which is unnecessary given the context of the reversal design already in use.",
+    "domain": [
+      "Experimental Design"
+    ],
+    "subdomain": [
+      "D7",
+      "D5"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "e7e0dc96-05f3-40fa-9f5f-142ea62024be",
+    "question": "A BCBA is working with a teacher who wants to measure a student's off-task behavior during independent seatwork. The behavior occurs frequently but briefly, and the teacher has limited time to collect data due to classroom demands. The BCBA wants to recommend a measurement procedure that accurately represents the behavior while considering the environmental constraints. Which measurement procedure would be most appropriate in this scenario?",
+    "options": [
+      "Whole interval recording, because it captures the total duration of off-task behavior.",
+      "Momentary time sampling, because it provides representative data while minimizing disruption to teaching.",
+      "Permanent product recording, because it directly measures the outcome of off-task behavior.",
+      "Frequency recording, because it continuously measures each occurrence of off-task behavior."
+    ],
+    "correct_answer": 1,
+    "rationale": "Momentary time sampling is the most appropriate measurement procedure in this scenario because it is a discontinuous measurement method that allows the teacher to quickly and efficiently collect representative data on behaviors that occur frequently and briefly. Whole interval recording tends to underestimate brief behaviors and is more suitable for behaviors targeted for increase. Permanent product recording is not appropriate because off-task behavior does not reliably produce a tangible outcome. Frequency recording, although continuous and accurate, would be impractical given the teacher's environmental constraints and the high frequency of brief occurrences.",
+    "domain": [
+      "Measurement, Data Display, and Interpretation"
+    ],
+    "subdomain": [
+      "C5",
+      "C2",
+      "C9"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "149d0e7c-86d0-4707-bb62-23bf3ac0a15d",
+    "question": "Which of the following is a primary principle of Applied Behavior Analysis (ABA)?",
+    "options": [
+      "The use of cognitive therapies to change behavior",
+      "The application of behavioral principles to improve socially significant behaviors",
+      "The focus on internal emotional states to drive behavior change",
+      "The exclusive use of pharmacological interventions to manage behavior"
+    ],
+    "correct_answer": 1,
+    "rationale": "The primary principle of Applied Behavior Analysis (ABA) is the application of behavioral principles to improve socially significant behaviors. ABA focuses on observable and measurable behaviors, using techniques such as reinforcement, punishment, and stimulus control to bring about meaningful behavior change. Option A is incorrect because ABA does not primarily use cognitive therapies. Option C is incorrect because ABA focuses on observable behaviors rather than internal emotional states. Option D is incorrect because ABA does not involve the use of pharmacological interventions.",
+    "domain": [
+      "Concepts and Principles"
+    ],
+    "subdomain": [],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "mistral-large-latest",
+      "temperature": 0.2,
+      "max_tokens": 1024
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Understand"
+  },
+  {
+    "id": "2ec6b5ea-a38e-4679-a19c-b25b0005fad2",
+    "question": "A BCBA is asked to evaluate two different behavior intervention programs designed to reduce aggressive behaviors in a residential facility. Program A achieves the behavior reduction goal after an average of 10 sessions, each lasting 60 minutes, while Program B achieves the same goal after an average of 15 sessions, each lasting 30 minutes. Both programs have similar staffing costs per session. The BCBA decides to select Program B, reasoning that shorter sessions provide more frequent opportunities to measure and describe behavior change, thus enhancing the ability to predict and control future occurrences of aggression. Which statement BEST evaluates the BCBA's decision based on the goals of behavior analysis and measurement of efficiency?",
+    "options": [
+      "The BCBA's decision is incorrect because Program A achieves the goal in fewer total sessions, thus providing quicker control over aggressive behavior and greater efficiency.",
+      "The BCBA's decision is correct because shorter sessions allow more frequent measurement opportunities, enhancing description and prediction, despite requiring more sessions overall.",
+      "The BCBA's decision is incorrect because efficiency should be measured solely by total duration of intervention, and Program A has fewer total intervention hours.",
+      "The BCBA's decision is correct because shorter sessions inherently improve the accuracy of data collection, thus directly increasing experimental control."
+    ],
+    "correct_answer": 1,
+    "rationale": "The BCBA's decision aligns with the goals of behavior analysis as a science (description, prediction, control) and the measurement of efficiency. Shorter sessions, although requiring more total sessions, provide more frequent opportunities to measure and describe behavior changes. This frequent measurement enhances the BCBA's ability to accurately describe behavioral patterns, predict future occurrences, and exert control over aggressive behaviors. Efficiency in ABA is not solely determined by total intervention hours or total sessions alone, but by the quality and utility of data collected and the ability to achieve meaningful behavioral outcomes. Option A incorrectly assumes fewer sessions always equate to greater efficiency and control. Option C incorrectly limits efficiency measurement to total duration alone. Option D incorrectly assumes shorter sessions inherently improve data accuracy and experimental control without considering measurement frequency and opportunities for description and prediction.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations",
+      "Measurement, Data Display, and Interpretation"
+    ],
+    "subdomain": [
+      "A1",
+      "C7"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Evaluate"
+  },
+  {
+    "id": "25293fca-297f-43f4-a78b-a37bd5006da7",
+    "question": "A behavior analyst is working with a child named Alex who has difficulty following instructions in a classroom setting. The analyst decides to use a behavior-change procedure that incorporates motivating operations and discriminative stimuli to improve Alex's compliance with teacher requests. The analyst sets up a system where Alex receives a preferred activity (playing with a tablet) contingent upon following a verbal instruction within 5 seconds. The analyst also uses a visual cue (a green card) that signals when the opportunity to earn the tablet is available. After a week, Alex's compliance improves significantly. Which of the following best describes the role of the green card in this intervention?",
+    "options": [
+      "The green card acts as a motivating operation by increasing the value of the tablet as a reinforcer.",
+      "The green card serves as a discriminative stimulus signaling the availability of reinforcement for compliance.",
+      "The green card functions as a conditioned reinforcer that maintains Alex's compliance behavior.",
+      "The green card is an unconditioned stimulus that naturally elicits compliance behavior."
+    ],
+    "correct_answer": 1,
+    "rationale": "The green card serves as a discriminative stimulus (SD) because it signals to Alex that reinforcement (access to the tablet) is available contingent upon compliance with the instruction. This aligns with the learning objective of incorporating discriminative stimuli into behavior-change procedures. Option A is incorrect because the green card does not alter the value of the reinforcer (the tablet); rather, it signals the availability of reinforcement. Option C is incorrect because the green card does not function as a reinforcer itself but as a cue for reinforcement availability. Option D is incorrect because the green card is not an unconditioned stimulus; it does not naturally elicit compliance without prior learning.",
+    "domain": [
+      "Behavior-Change Procedures"
+    ],
+    "subdomain": [
+      "G5",
+      "G6"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "9669bb96-a44c-4fef-887c-2e22918cd46d",
+    "question": "A BCBA is working with a 12-year-old client, Alex, who has a history of aggressive behavior. The BCBA has implemented a behavior intervention plan (BIP) that successfully reduced aggression by teaching Alex alternative communication skills. However, the BCBA is concerned about potential relapse due to upcoming changes in Alex's environment, including a move to a new school with a different cultural demographic. To address these concerns, the BCBA decides to conduct a thorough assessment that includes cultural variables and plans for relapse prevention. Which of the following strategies best integrates the assessment of cultural variables and the planning for relapse prevention?",
+    "options": [
+      "Conduct a functional behavior assessment (FBA) that includes interviews with Alex's family and new teachers to understand cultural expectations and incorporate these insights into the BIP, while also training Alex in self-management skills to maintain behavior changes.",
+      "Focus solely on training the new school staff in the existing BIP to ensure consistency in intervention implementation, without altering the plan to address cultural differences.",
+      "Implement a token economy system at the new school to reinforce Alex's alternative communication skills, assuming that reinforcement principles are universally applicable across cultures.",
+      "Develop a new BIP that emphasizes punishment procedures to quickly suppress any resurgence of aggressive behavior in the new school environment, considering the cultural emphasis on authority."
+    ],
+    "correct_answer": 0,
+    "rationale": "Option A is correct because it integrates both the assessment of cultural variables and relapse prevention strategies. By conducting an FBA that includes cultural insights from Alex's family and new teachers, the BCBA can tailor the intervention to be culturally sensitive and relevant. Additionally, training Alex in self-management skills empowers him to maintain behavior changes independently, which is a proactive strategy for relapse prevention. Option B neglects the importance of cultural variables and relies solely on staff training, which may not address potential cultural mismatches. Option C assumes that reinforcement systems are universally effective without considering cultural nuances, which could lead to ineffective interventions. Option D focuses on punishment, which may not be culturally appropriate and does not address the underlying causes of behavior or promote long-term behavior change.",
+    "domain": [
+      "Selecting and Implementing Interventions",
+      "Behavior Assessment"
+    ],
+    "subdomain": [
+      "H5",
+      "F2"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "08c35067-3e08-4dda-9bb4-a9e80c4dc7f5",
+    "question": "A BCBA is working with a 10-year-old client, Alex, who displays aggressive behavior in school. The BCBA conducts a functional behavior assessment (FBA) and gathers data indicating that the aggressive behavior is maintained by peer attention. However, Alex's parents emphasize the importance of improving Alex's academic performance and social skills, which are also areas of concern. Considering the goals of behavior analysis as a science and the need to prioritize socially significant and culturally responsive goals, what should the BCBA do next?",
+    "options": [
+      "Implement a behavior intervention plan (BIP) focused solely on reducing aggressive behavior, as it is the most immediate concern.",
+      "Develop a comprehensive intervention that targets aggressive behavior first, then gradually incorporates academic and social skills training based on ongoing data analysis.",
+      "Prioritize academic performance and social skills training over aggressive behavior intervention, as these are the areas emphasized by the parents.",
+      "Conduct a meeting with all stakeholders to collaboratively interpret assessment data and prioritize goals that align with both the FBA results and the family\u2019s values."
+    ],
+    "correct_answer": 3,
+    "rationale": "The correct answer, D, integrates the goals of behavior analysis (description, prediction, control) with the interpretation of assessment data to identify and prioritize goals that are socially significant, client-informed, and culturally responsive. By conducting a meeting with stakeholders, the BCBA ensures that the intervention aligns with the scientific goals of behavior analysis by using data (description) to predict and control behavior changes. This approach also respects the family's cultural values and prioritizes goals that are meaningful to the client and their family. Option A neglects the broader context and family input, option B assumes a rigid sequence without stakeholder collaboration, and option C disregards the FBA findings, which identified aggressive behavior as a behavior maintained by peer attention.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations",
+      "Behavior Assessment"
+    ],
+    "subdomain": [
+      "A1",
+      "F8"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "7c4bdce9-6188-4e0f-8e06-c140f4a8ddd0",
+    "question": "Which of the following is an example of an empirically validated and culturally responsive performance management procedure in ABA?",
+    "options": [
+      "Ignoring the cultural background of the staff when providing feedback.",
+      "Providing clear task clarification and modeling appropriate behaviors.",
+      "Assigning tasks without considering the response effort required.",
+      "Using a general approach without adapting to individual needs."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B is correct because providing clear task clarification and modeling appropriate behaviors are components of empirically validated performance management procedures. These methods are also culturally responsive as they can be adapted to fit the cultural context of the staff. Option A is incorrect because ignoring cultural background is not culturally responsive. Option C is incorrect because it disregards the importance of response effort, which is essential in performance management. Option D is incorrect because using a general approach without adaptation does not consider cultural responsiveness or individual needs.",
+    "domain": [
+      "Personnel Supervision and Management"
+    ],
+    "subdomain": [
+      "I5"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "9dd7ea9d-4de8-433e-ab9d-f1c64adc13f1",
+    "question": "A BCBA is supervising a team of therapists working with a culturally diverse group of children with autism. The team is tasked with implementing a new intervention based on data collected from a culturally responsive assessment. The BCBA decides to graph the data collected from the intervention to evaluate its effectiveness. However, the BCBA notices that the therapists are using a bar graph to display the data, which does not accurately represent the continuous nature of the behavior being measured. What should the BCBA do to ensure that the data is communicated effectively and that the intervention remains culturally responsive?",
+    "options": [
+      "Recommend that the therapists switch to a cumulative record graph to better represent the ongoing progress of the behavior while providing training on culturally responsive practices in data interpretation.",
+      "Suggest that the therapists continue using the bar graph but add more data points to make it appear more comprehensive, while also emphasizing the importance of cultural sensitivity in their interactions with families.",
+      "Instruct the therapists to use an equal-interval line graph to display the data, ensuring that they understand how to interpret the results in a culturally responsive manner that respects the values of the families involved.",
+      "Advise the therapists to abandon the current intervention and start over with a new culturally relevant approach, regardless of the data collected, to ensure that they are meeting the needs of the families."
+    ],
+    "correct_answer": 2,
+    "rationale": "Option C is the correct answer as it integrates the need for accurate data representation through the use of an equal-interval line graph, which is appropriate for continuous data. It also emphasizes the importance of culturally responsive practices by ensuring that the therapists understand how to interpret the results in a way that respects the families' values. Option A, while partially correct, suggests a cumulative record graph which may not be the best fit for all continuous data scenarios. Option B misrepresents the data by suggesting to continue with an inappropriate graph type, and option D disregards the importance of data-driven decision-making and the ongoing intervention process, which is not ethically sound.",
+    "domain": [
+      "Ethical and Professional Issues",
+      "Measurement, Data Display, and Interpretation"
+    ],
+    "subdomain": [
+      "E10",
+      "C10"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Evaluate"
+  },
+  {
+    "id": "c97054b1-867a-4699-b18b-bc62f1251e99",
+    "question": "A BCBA is designing an intervention to reduce aggressive outbursts exhibited by a student during difficult academic tasks. Functional analysis indicates aggression is maintained by escape from task demands. Due to limited staff resources, continuous measurement is impractical. Additionally, previous interventions have shown initial success but later failed due to relapse when reinforcement schedules were thinned or withdrawn. Given these constraints, what would be the most appropriate measurement procedure and accompanying intervention strategy to effectively monitor the behavior and minimize relapse risk?",
+    "options": [
+      "Use partial interval recording to measure aggression and implement a fixed-ratio reinforcement schedule that gradually transitions to a variable-ratio schedule, teaching the student to request breaks as an alternative behavior.",
+      "Use momentary time sampling to measure aggression and implement escape extinction procedures immediately, followed by rapid fading of prompts and reinforcement to ensure quick independence.",
+      "Use permanent product recording to measure aggression and implement differential reinforcement of low rates (DRL) of aggression, gradually thinning reinforcement schedules based on predetermined time intervals.",
+      "Use latency recording to measure aggression and implement a dense, fixed-interval reinforcement schedule without thinning, ensuring reinforcement is consistently available to avoid relapse."
+    ],
+    "correct_answer": 0,
+    "rationale": "The scenario requires selecting a measurement procedure that is practical given environmental constraints (limited staff resources) and also accounts for the critical dimension of the behavior (aggressive outbursts). Partial interval recording is feasible and appropriate for behaviors that are discrete yet frequent enough to be reliably captured. Momentary time sampling (option B) may underestimate occurrences of short-duration aggression, and permanent product recording (option C) is inappropriate for behaviors that do not produce tangible, lasting outcomes. Latency recording (option D) measures time between stimulus and behavior onset, which is less relevant to the scenario described. Additionally, the intervention must mitigate relapse risk. Option A incorporates teaching an alternative replacement behavior (requesting breaks) and systematically fading reinforcement schedules from fixed-ratio to variable-ratio, which is known to produce greater resistance to extinction and reduce relapse. Option B's rapid fading and immediate extinction may increase relapse risk. Option C's DRL is inappropriate because aggression is harmful and any occurrence is undesirable. Option D's dense reinforcement schedule without thinning would not promote independence and may increase relapse risk when reinforcement inevitably changes.",
+    "domain": [
+      "Measurement, Data Display, and Interpretation",
+      "Selecting and Implementing Interventions"
+    ],
+    "subdomain": [
+      "C9",
+      "H5"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "481b4838-f928-4196-a1e7-75700cb07560",
+    "question": "Ashley is a Registered Behavior Technician who is learning about the dimensions of ABA in graduate school. She is trying to make sure that she can align each dimension to an example that she will encounter at work to make sure she understands the real-work application of these foundational concepts. Ethically, she believes that application of concepts is more important than just memorization of concepts in her future career as a BCB",
+    "options": [
+      "Which dimension of Applied Behavior Analysis (ABA) emphasizes the importance of demonstrating that changes in behavior are durable and extend beyond the training context? A. Analytic",
+      "Generality",
+      "Technological",
+      "Applied"
+    ],
+    "correct_answer": 1,
+    "rationale": "Correct Answer Explanation: Generality The dimension of generality (or generalization) ensures that the behavior change is durable over time and across different environments, settings, and contexts. It is crucial for behavior analysts to design interventions that produce lasting behavior changes that can be observed outside the specific training context and in various real-world situations.\nWhy A is incorrect: Analytic This dimension emphasizes demonstrating a functional relationship between the intervention and the behavior change. It focuses on ensuring that the behavior change can be attributed to the intervention through systematic and controlled experimentation. However, it does not specifically emphasize the durability or generalization of the behavior change.\nWhy C is incorrect: Technological This dimension focuses on ensuring that the procedures and interventions are described in sufficient detail so that they can be replicated by others. It emphasizes the precision and clarity of the intervention descriptions but does not address the durability or generalization of behavior changes.\nWhy D is incorrect: Applied This dimension emphasizes the social significance and practical importance of the behavior change. It ensures that the interventions address behaviors that are meaningful and important to the individual's life. While it is concerned with practical application, it does not specifically focus on the durability or generalization of behavior changes.",
+    "domain": [
+      "A-5"
+    ],
+    "subdomain": [],
+    "difficulty": null,
+    "model_params": {
+      "model": "expert",
+      "temperature": null,
+      "max_tokens": null
+    },
+    "prompts": {
+      "system_prompt": null,
+      "user_prompt": null
+    },
+    "bloom_taxonomy": "Apply"
+  },
+  {
+    "id": "9ba993b6-c2be-429f-a86d-4e29022c525e",
+    "question": "A behavior analyst is working with a child who exhibits frequent aggressive outbursts during group activities, which disrupts the learning environment. To address this, the analyst decides to implement a multiple schedule of reinforcement to reduce the aggressive behavior while simultaneously teaching a socially valid alternative behavior of raising a hand to request help. The analyst plans to reinforce the child for raising their hand during group activities while also providing reinforcement for periods of time when the child does not engage in aggressive behavior. Which of the following best describes the approach the analyst is using in this scenario?",
+    "options": [
+      "The analyst is using a concurrent schedule of reinforcement to compete with the aggressive behavior while teaching an incompatible behavior.",
+      "The analyst is using a chained schedule of reinforcement that links the raising of the hand to subsequent reinforcement for appropriate behavior.",
+      "The analyst is using a mixed schedule of reinforcement to reinforce both the alternative behavior and the absence of the target behavior, ensuring the child learns to generalize the new skill.",
+      "The analyst is using a multiple schedule of reinforcement to provide distinct reinforcement for raising the hand and for periods of non-aggressive behavior, which helps establish the alternative behavior in a socially valid context."
+    ],
+    "correct_answer": 3,
+    "rationale": "The scenario describes the use of a multiple schedule of reinforcement, where different schedules are applied to different behaviors (raising the hand and non-aggressive behavior). This aligns with learning objective B10, as it distinguishes the type of schedule used. Additionally, the choice of raising a hand as an alternative behavior is socially valid, addressing learning objective H3, as it promotes appropriate communication in the classroom setting. Option D accurately captures the nuanced application of both the reinforcement schedule and the socially valid behavior selection, while the other options misinterpret the schedules or the relationship between the behaviors.",
+    "domain": [
+      "Concepts and Principles",
+      "Selecting and Implementing Interventions"
+    ],
+    "subdomain": [
+      "B10",
+      "H3"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Apply"
+  },
+  {
+    "id": "04804f3f-9fd6-452e-be00-dee9f6f421dc",
+    "question": "Which of the following is a basic principle of Applied Behavior Analysis (ABA) that involves reinforcing a behavior that is incompatible with a problem behavior?",
+    "options": [
+      "Differential Reinforcement of Other Behavior (DRO)",
+      "Differential Reinforcement of Incompatible Behavior (DRI)",
+      "Differential Reinforcement of Alternative Behavior (DRA)",
+      "Non-contingent Reinforcement (NCR)"
+    ],
+    "correct_answer": 1,
+    "rationale": "Differential Reinforcement of Incompatible Behavior (DRI) is a behavior-change procedure where reinforcement is provided for a behavior that is physically incompatible with the problem behavior. For example, if the problem behavior is hand-flapping, reinforcing the individual for holding an object with both hands would be an example of DRI. This procedure is designed to increase the desired behavior while decreasing the problem behavior. The other options, while also behavior-change procedures, do not specifically target incompatible behaviors. DRO reinforces the absence of the problem behavior, DRA reinforces an alternative behavior that serves the same function as the problem behavior, and NCR provides reinforcement on a fixed time schedule independent of behavior.",
+    "domain": [
+      "Behavior-Change Procedures"
+    ],
+    "subdomain": [],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "mistral-large-latest",
+      "temperature": 0.2,
+      "max_tokens": 1024
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Understand"
+  },
+  {
+    "id": "329d220c-511e-4a0f-b5b7-77949de3be11",
+    "question": "Dr. Ramirez designs a study to examine the effectiveness of a reinforcement-based intervention on increasing cooperative play in preschoolers. She conducts the study in a highly controlled, university-based laboratory setting, using graduate students as interventionists who strictly follow scripted protocols. After obtaining significant results, she immediately recommends that preschool teachers implement the same intervention in their classrooms without further modification or testing. Which statement best analyzes Dr. Ramirez's recommendation, considering both internal and external validity and the distinctions among behaviorism, experimental analysis of behavior (EAB), applied behavior analysis (ABA), and professional practice guided by behavior analysis?",
+    "options": [
+      "Dr. Ramirez's recommendation is appropriate because the controlled laboratory conditions ensured high internal validity, and thus, the intervention will reliably generalize to preschool classrooms, aligning with the practical goals of professional behavior analytic practice.",
+      "Dr. Ramirez's recommendation is flawed because, although the controlled laboratory setting ensured high internal validity characteristic of experimental analysis of behavior, it compromised external validity, limiting generalizability to applied settings; thus, further analysis and adaptation are necessary before professional practice implementation.",
+      "Dr. Ramirez's recommendation is justified because behaviorism emphasizes the universality of behavioral principles; hence, high internal validity in laboratory research guarantees external validity, making immediate implementation in applied settings appropriate.",
+      "Dr. Ramirez's recommendation is incorrect because applied behavior analysis prioritizes external validity over internal validity; thus, any intervention tested in a controlled laboratory setting inherently lacks internal validity and should never be directly implemented in professional practice."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B correctly identifies that although high internal validity was achieved through strict laboratory controls (characteristic of experimental analysis of behavior), external validity (generalizability to real-world settings) is compromised. Dr. Ramirez's immediate recommendation for direct implementation in preschool classrooms without additional testing or adaptation ignores critical differences between controlled laboratory contexts and applied settings. Furthermore, this answer correctly distinguishes among the experimental analysis of behavior (highly controlled laboratory research emphasizing internal validity), applied behavior analysis (research conducted in applied settings emphasizing socially significant behaviors and external validity), and professional practice guided by behavior analysis (application of empirically validated interventions adapted to natural settings). Option A incorrectly assumes generalization from laboratory to classroom without further testing. Option C inaccurately asserts behaviorism guarantees external validity based solely on internal validity. Option D mistakenly claims ABA inherently lacks internal validity and prioritizes external validity exclusively, which is inaccurate.",
+    "domain": [
+      "Experimental Design",
+      "Behaviorism and Philosophical Foundations"
+    ],
+    "subdomain": [
+      "D2",
+      "A4"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "daef206e-fac3-47ba-9959-518c4a87d390",
+    "question": "Which of the following experimental designs involves observing behavior during baseline and then implementing an intervention in a staggered manner across different subjects or settings?",
+    "options": [
+      "Multiple-baseline design",
+      "Reversal design",
+      "Changing-criterion design",
+      "Multielement design"
+    ],
+    "correct_answer": 0,
+    "rationale": "A multiple-baseline design is characterized by the staggered introduction of an intervention across different subjects, settings, or behaviors, allowing for the assessment of the intervention's effects while controlling for confounding variables. This question tests the basic understanding of the different experimental designs outlined in the learning objective.",
+    "domain": [
+      "Experimental Design"
+    ],
+    "subdomain": [
+      "D7"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "a6fe6659-5e1a-44fd-959a-3ca0b23b8791",
+    "question": "A behavior analyst is working with a client to decrease instances of aggressive behavior in a classroom setting. The analyst uses a combination of direct observation, data collection, and intervention strategies based on reinforcement principles. In a team meeting, the analyst explains that their approach is grounded in the philosophical assumptions of behavior analysis, including determinism and empiricism. Which of the following best describes the analyst's approach and its alignment with the goals and philosophical foundations of behavior analysis?",
+    "options": [
+      "The approach focuses on controlling behavior through reinforcement, which aligns with the goal of prediction in behavior analysis.",
+      "The approach emphasizes the description of behavior patterns, which aligns with the philosophical assumption of parsimony.",
+      "The approach uses data-driven methods to predict and control behavior, reflecting the goals of behavior analysis and the assumptions of determinism and empiricism.",
+      "The approach is primarily concerned with understanding the internal motivations behind behavior, which is consistent with the philosophical assumption of pragmatism."
+    ],
+    "correct_answer": 2,
+    "rationale": "The correct answer is C because the behavior analyst's approach is consistent with the goals of behavior analysis, which include prediction and control of behavior. By using data-driven methods, the analyst is applying the philosophical assumptions of determinism (the belief that behavior is lawful and orderly) and empiricism (the reliance on objective observation and data collection). Option A is incorrect because it misrepresents the goal of prediction as being achieved solely through reinforcement. Option B incorrectly associates the description of behavior with parsimony, which is about simplicity in explanations. Option D incorrectly focuses on internal motivations, which is not aligned with the philosophical foundations of behavior analysis, such as pragmatism, which emphasizes practical outcomes.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations"
+    ],
+    "subdomain": [
+      "A4",
+      "A2",
+      "A1"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "9ec2d289-235b-4dfa-8014-3d7ec1a3954f",
+    "question": "A behavior analyst is working with a child who often requests snacks during therapy sessions. The analyst notices that the child is more likely to ask for snacks when they are hungry (a motivating operation) and when they see the snack container (a discriminative stimulus). To teach the child to request help with tasks instead of snacks, the analyst implements a procedure where the snack container is removed and a visual aid for requesting help is introduced. However, the child continues to ask for snacks. Which of the following strategies would best address the multiple control of the child\u2019s verbal behavior while incorporating motivating operations and discriminative stimuli?",
+    "options": [
+      "Reinforce the child\u2019s requests for help with a snack only after the visual aid is presented, ensuring that the visual aid serves as a discriminative stimulus for requesting help.",
+      "Gradually reintroduce the snack container while pairing it with the visual aid, allowing the child to see both items simultaneously to increase the likelihood of requesting help.",
+      "Provide snacks non-contingently throughout the session, ensuring that the child is not hungry, and then introduce the visual aid to teach requesting help without the competing motivation for snacks.",
+      "Use the snack container as a discriminative stimulus for both requesting snacks and requesting help, reinforcing the child\u2019s requests for help with snacks to establish a dual control over the behavior."
+    ],
+    "correct_answer": 0,
+    "rationale": "Option A is the most effective strategy as it directly addresses the multiple control of the child\u2019s verbal behavior by reinforcing requests for help specifically when the visual aid is present, which serves as a discriminative stimulus. This approach also incorporates the motivating operation of hunger by ensuring that the child is not reinforced with snacks for requesting help, thereby reducing the likelihood of competing requests. Option B is misleading because it suggests reintroducing the snack container, which could strengthen the request for snacks rather than help. Option C fails to address the role of the visual aid as a discriminative stimulus for requesting help, while providing snacks non-contingently may not effectively teach the desired behavior. Option D incorrectly suggests using the snack container as a dual discriminative stimulus, which could lead to confusion and reinforce the undesired behavior of requesting snacks instead of help.",
+    "domain": [
+      "Behavior-Change Procedures",
+      "Concepts and Principles"
+    ],
+    "subdomain": [
+      "G5",
+      "B20"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "7f8fb329-8ffd-4702-94f5-77688072b27a",
+    "question": "A behavior analyst is working with a 10-year-old student, Alex, who frequently engages in disruptive behaviors in class, such as shouting out answers and leaving his seat without permission. The behavior analyst has conducted a functional behavior assessment and determined that these behaviors are maintained by peer attention. The teacher has requested an intervention to decrease these behaviors. In considering the goals of behavior analysis as a science, the behavior analyst aims to describe, predict, and control Alex's behaviors. Additionally, the behavior analyst must select a socially valid alternative behavior to increase. Which of the following interventions best aligns with the goals of behavior analysis and the selection of a socially valid alternative behavior?",
+    "options": [
+      "Implement a token economy where Alex earns tokens for staying seated and loses tokens for shouting, focusing solely on the reduction of the target behavior.",
+      "Teach Alex to raise his hand and wait to be called on before speaking, reinforcing this behavior with peer attention, and use differential reinforcement of other behavior (DRO) to reduce shouting.",
+      "Use a time-out procedure whenever Alex shouts or leaves his seat, ensuring that the time-out is conducted in a non-reinforcing environment.",
+      "Implement a self-monitoring system where Alex tracks his own behavior, focusing on increasing hand-raising and decreasing shouting, without involving peers."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B is the correct answer as it integrates the goals of behavior analysis (description, prediction, control) by identifying the function of Alex's behavior (peer attention) and addressing it through an alternative behavior (raising hand) that is socially valid and functionally equivalent. Reinforcing hand-raising with peer attention directly aligns with the identified maintaining function, ensuring the intervention is effective and socially valid. Additionally, the use of differential reinforcement of other behavior (DRO) helps in reducing the target behavior (shouting) while promoting the alternative behavior. Options A, C, and D fail to adequately address the function of the behavior or the selection of a socially valid alternative behavior. Option A focuses solely on behavior reduction without teaching a replacement behavior. Option C uses punishment without teaching an alternative, which may not be socially valid. Option D does not involve peers, which is crucial given the identified function of Alex's behavior.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations",
+      "Selecting and Implementing Interventions"
+    ],
+    "subdomain": [
+      "A1",
+      "H3"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "4e093715-e318-4841-8c65-ee62ebda5cc8",
+    "question": "A BCBA is supervising a team of therapists working with a culturally diverse group of clients. One of the therapists expresses discomfort with certain cultural practices of a client\u2019s family, believing they conflict with evidence-based interventions. The BCBA recognizes the importance of culturally responsive practices and the need for effective supervision. What should the BCBA do to address this situation while ensuring ethical and inclusive service delivery?",
+    "options": [
+      "Encourage the therapist to document their concerns and discontinue services to the family immediately.",
+      "Provide training to the therapist on cultural competence and facilitate a discussion with the family to better understand their practices.",
+      "Suggest that the therapist ignore the cultural practices and focus solely on the evidence-based interventions.",
+      "Recommend that the therapist seek supervision from a different BCBA who may share their views on cultural practices."
+    ],
+    "correct_answer": 1,
+    "rationale": "The correct answer is B because it aligns with the principles of culturally responsive service and supervision. Providing training on cultural competence helps the therapist understand and respect the family's practices, which is essential for effective intervention. It also fosters an inclusive environment and promotes ethical practice by valuing the client's cultural background. Option A reflects a misunderstanding of the importance of cultural responsiveness and prematurely terminates services. Option C disregards the significance of cultural practices, which can lead to ineffective interventions. Option D suggests avoidance rather than addressing the issue constructively.",
+    "domain": [
+      "Ethical and Professional Issues"
+    ],
+    "subdomain": [
+      "E10",
+      "E6"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "349a9ae4-63a1-4484-b237-ddafdb04cfa8",
+    "question": "A special education teacher is implementing a reinforcement schedule for a student who struggles with staying on task during independent work. The teacher decides to use a fixed-time reinforcement schedule where the student receives a reward every 10 minutes of focused work. Additionally, the teacher plans to gradually fade the use of verbal prompts that help the student begin tasks. After three weeks, the teacher notices the student is still dependent on prompts and is not showing signs of increased independence. Which of the following strategies would best address the student's need for increased independence while also maintaining the reinforcement schedule?",
+    "options": [
+      "Increase the duration of the fixed-time reinforcement to 15 minutes and continue using verbal prompts at the same frequency.",
+      "Implement a prompt delay procedure where the teacher waits 5 seconds before providing a prompt, while keeping the reinforcement schedule unchanged.",
+      "Switch to a variable-time reinforcement schedule to increase unpredictability and reduce reliance on prompts.",
+      "Remove all prompts immediately and continue with the fixed-time reinforcement schedule to encourage independence."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B correctly applies the principles of fading prompts while maintaining the reinforcement schedule. A prompt delay procedure allows the student to attempt tasks independently for a short period before receiving assistance, promoting independence and reducing prompt dependency. Option A does not address the prompt dependency issue effectively. Option C introduces a variable schedule, which may not be appropriate given the student's current level of independence. Option D could lead to frustration and failure, as removing all prompts at once does not support the gradual fading necessary for skill acquisition.",
+    "domain": [
+      "Behavior-Change Procedures"
+    ],
+    "subdomain": [
+      "G3",
+      "G19",
+      "G8"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "7cb859ee-7640-4154-8b72-6cb945f9529a",
+    "question": "You are supervising a new behavior technician (BT) who recently immigrated from a culture that emphasizes avoiding mistakes and values explicit guidance. After conducting an initial assessment, you observe that the BT demonstrates anxiety when clients make errors and tends to immediately provide full physical prompts to prevent mistakes. The BT is assigned to work with a client who has mastered several skills and is now ready to transition from errorless learning to more independent responding. Considering the BT's cultural background, current skill set, and the client's readiness, what would be the most appropriate supervision goal and prompting strategy to implement?",
+    "options": [
+      "Set a supervision goal to gradually shape the BT's comfort with client errors by modeling and reinforcing least-to-most prompting, emphasizing the importance of allowing independent responding and occasional errors as learning opportunities.",
+      "Set a supervision goal to reinforce the BT's current use of errorless prompting procedures, ensuring the BT continues to prevent client errors to maintain the client's confidence and avoid anxiety for both the BT and client.",
+      "Set a supervision goal to immediately discontinue all prompting procedures, instructing the BT to allow the client to independently respond without prompts, thus rapidly transitioning the client to independence.",
+      "Set a supervision goal to train the BT exclusively on most-to-least prompting procedures, disregarding the BT's cultural preference for explicit guidance and anxiety around client errors."
+    ],
+    "correct_answer": 0,
+    "rationale": "The correct answer (A) integrates both learning objectives effectively. It considers the supervisee's cultural background (valuing explicit guidance and anxiety around errors), the supervisee's current skill set (over-reliance on errorless prompting), and the client's readiness to transition toward more independent responding. Gradually shaping the BT's comfort with client errors through modeling and reinforcement of least-to-most prompting procedures respects the supervisee's cultural variables while appropriately addressing the client's developmental needs. Option B incorrectly maintains errorless prompting despite the client's readiness for increased independence, thus hindering client progress. Option C abruptly removes prompting, disregarding the supervisee's anxiety and potentially compromising client success. Option D neglects the supervisee's cultural variables and anxiety, potentially causing resistance or ineffective implementation.",
+    "domain": [
+      "Personnel Supervision and Management",
+      "Behavior-Change Procedures"
+    ],
+    "subdomain": [
+      "I4",
+      "G7"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "59cca116-5044-4c30-a9d1-ccc87cd987ec",
+    "question": "A BCBA is working with a 7-year-old child diagnosed with Autism Spectrum Disorder who exhibits limited communication skills and difficulty engaging in play with peers. The BCBA conducts a functional behavior assessment (FBA) and identifies that the child often engages in echolalia during social interactions, which serves to escape from peer engagement. To address this, the BCBA decides to implement a trial-based procedure to teach the child appropriate play skills while simultaneously assessing the effectiveness of the intervention. Which of the following approaches best integrates the assessment of skill strengths and areas of need with the trial-based procedure to promote effective behavior change?",
+    "options": [
+      "Implement a discrete trial training (DTT) procedure to teach the child to request a turn in play, while using a preference assessment to identify toys that the child enjoys, ensuring that the child is motivated to engage with peers.",
+      "Use a free-operant procedure where the child is allowed to choose any toy to play with, while observing the frequency of echolalic speech, and then provide reinforcement for any instance of spontaneous communication, regardless of context.",
+      "Conduct a trial-based assessment where the child is prompted to engage in play with peers using scripted phrases, and then measure the duration of time spent in play without considering the quality of interactions or the child's enjoyment.",
+      "Implement a naturalistic teaching strategy where the child is placed in a group setting with peers and is encouraged to use echolalic phrases as a means of communication, while collecting data on the number of peer interactions without modifying the child's behavior."
+    ],
+    "correct_answer": 0,
+    "rationale": "Option A effectively integrates the assessment of the child's strengths (preference for certain toys) and areas of need (communication skills) by using a discrete trial training procedure that teaches functional communication (requesting a turn) in a motivating context. This aligns with the learning objectives of designing assessments that identify relevant skills and implementing trial-based procedures that promote behavior change. Option B, while incorporating a free-operant procedure, does not address the need for teaching specific communication skills. Option C focuses on scripted phrases without assessing the child's natural communication abilities or enjoyment, and Option D encourages echolalia without promoting functional communication, which does not support the child's development in social interactions.",
+    "domain": [
+      "Behavior Assessment",
+      "Behavior-Change Procedures"
+    ],
+    "subdomain": [
+      "F3",
+      "G13"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "43327666-e849-42ca-969e-591713db584f",
+    "question": "A behavior analyst is working with a 10-year-old client who exhibits frequent task refusal during math lessons at school. The analyst has collected baseline data showing that task refusal occurs in 80% of math sessions. After implementing a differential reinforcement of alternative behavior (DRA) intervention, which involves reinforcing the client for requesting help appropriately, the frequency of task refusal decreases to 20% over a two-week period. However, the teacher reports that the client often requests help even when they are capable of completing the task independently. In evaluating the effectiveness of the intervention and ensuring procedural integrity, which of the following steps should the behavior analyst prioritize to align with the goals of behavior analysis as a science?",
+    "options": [
+      "Modify the intervention to include a criterion for independent task completion before help is provided, ensuring the intervention controls for unnecessary help requests.",
+      "Collect additional data on the types of math problems the client finds difficult to enhance the prediction of task refusal occurrences.",
+      "Conduct a component analysis to determine if the decrease in task refusal is primarily due to the reinforcement of help requests or other variables.",
+      "Increase the frequency of reinforcement for help requests to further reduce task refusal, as the current decrease aligns with the intervention goals."
+    ],
+    "correct_answer": 0,
+    "rationale": "The correct answer, A, involves modifying the intervention to ensure that it effectively addresses the behavior without inadvertently reinforcing unnecessary help requests, which aligns with the goal of control in behavior analysis. This step requires the analyst to make data-based decisions to enhance procedural integrity by ensuring that the intervention is implemented correctly and achieves the desired outcomes. Option B focuses on prediction, which is important but does not directly address the procedural integrity of the intervention. Option C involves analyzing the intervention's components, which is useful but does not prioritize ensuring the intervention's integrity and effectiveness. Option D suggests increasing reinforcement without addressing the potential for reinforcing inappropriate help requests, which could undermine the intervention's goal of promoting independent task completion.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations",
+      "Selecting and Implementing Interventions"
+    ],
+    "subdomain": [
+      "A1",
+      "H6"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Evaluate"
+  },
+  {
+    "id": "9d710666-ee65-401a-aa50-d748aabb81a1",
+    "question": "Noah has difficulty staying focused during independent reading time in class. Noah often gets out of his seat, talks to his classmates, and looks around the room instead of reading. The school BCBA conducts an assessment and decides to implement an intervention to improve Noah's on-task behavior during reading time. Which of the following operational definitions for Noah's on-task behavior is the best?",
+    "options": [
+      "Noah will stay focused by remaining in his seat with his eyes on his book for at least 80% of the 20-minute independent reading period.",
+      "Noah will remain in his seat and avoid talking to classmates during reading time.",
+      "Noah will remain in his seat with his eyes on his book for at least 80% of the 20-minute independent reading period for 4 consecutive days.",
+      "Noah will show improvement in staying on task during independent reading time."
+    ],
+    "correct_answer": 2,
+    "rationale": "Correct Answer Explanation: Noah will remain in his seat with his eyes on his book for at least 80% of the 20-minute independent reading period for 4 consecutive days. This operational definition is specific, measurable, and includes a clear criterion for success. It provides a concrete and observable description of on-task behavior and sets a clear standard for evaluating improvement over time. Incorrect Answers: A. Noah will stay focused by remaining in his seat with his eyes on his book for at least 80% of the 20-minute independent reading period. This is specific and measurable but lacks a time criterion for success (e.g., for how many consecutive days). B. Noah will remain in his seat and avoid talking to classmates during reading time. This is partially specific but does not include a measurable aspect of being on-task (e.g., having eyes on the book). D. Noah will show improvement in staying on task during independent reading time. This is too vague and not specific or measurable.",
+    "domain": [
+      "H-1"
+    ],
+    "subdomain": [],
+    "difficulty": null,
+    "model_params": {
+      "model": "expert",
+      "temperature": null,
+      "max_tokens": null
+    },
+    "prompts": {
+      "system_prompt": null,
+      "user_prompt": null
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "ed33b1f3-04c5-4200-8a35-3e51b9af2291",
+    "question": "Dr. Smith is conducting a study to understand the aggressive behavior in children with autism in a classroom setting. He collects data through direct observation and uses this data to develop interventions aimed at reducing aggression. In his report, he describes the aggressive behaviors, predicts future occurrences based on environmental triggers, and implements interventions that successfully reduce aggressive incidents. Which of the following best illustrates Dr. Smith's approach in terms of behavior analysis as a science?",
+    "options": [
+      "Dr. Smith's approach exemplifies the goals of behavior analysis by focusing on description, prediction, and control of behavior.",
+      "Dr. Smith's approach is primarily philosophical, emphasizing selectionism and pragmatism in understanding behavior.",
+      "Dr. Smith's approach is rooted in the experimental analysis of behavior, focusing solely on laboratory-based research.",
+      "Dr. Smith's approach represents professional practice guided by behavior analysis, without scientific foundation."
+    ],
+    "correct_answer": 0,
+    "rationale": "Dr. Smith's approach aligns with the goals of behavior analysis as a science, which include description (observing and detailing aggressive behaviors), prediction (identifying environmental triggers that predict aggression), and control (implementing interventions to reduce aggression). This reflects an application of A1, where the goals of behavior analysis are identified and applied in a practical setting. Option B is incorrect because it misinterprets the focus on philosophical assumptions without addressing the scientific goals. Option C is incorrect as it refers to laboratory research, which is not the focus in this applied setting. Option D is incorrect because it implies a lack of scientific foundation, which contradicts the systematic and data-driven approach described.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations"
+    ],
+    "subdomain": [
+      "A4",
+      "A1",
+      "A2"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "336bf438-bb04-452e-b426-5069b338b0e9",
+    "question": "A BCBA designs a study to evaluate the effectiveness of a token economy on decreasing disruptive behaviors in a classroom. She uses an A-B-A-B reversal design, collecting frequency data on disruptive behaviors daily. During the second baseline (withdrawal) phase, a substitute teacher unfamiliar with classroom routines replaces the regular teacher for two weeks. The graphed data show a clear decrease in disruptive behaviors during the first intervention phase, an increase during the second baseline, but the second intervention phase's data are highly variable and overlap substantially with the second baseline. Considering the scenario, what is the MOST likely threat to internal validity and how should the BCBA interpret the graphed data?",
+    "options": [
+      "History threat due to the substitute teacher; variability and overlap in the second intervention phase limit conclusions about the functional relation between the token economy and behavior.",
+      "Instrumentation threat due to inconsistent data collection; variability in the second intervention phase suggests measurement error rather than intervention effectiveness.",
+      "Maturation threat due to students becoming accustomed to the intervention; the second baseline increase indicates a natural regression toward previous disruptive behaviors.",
+      "Testing threat due to repeated data collection; overlapping data between phases demonstrate participants' reactivity to measurement procedures rather than intervention effects."
+    ],
+    "correct_answer": 0,
+    "rationale": "The introduction of a substitute teacher during the second baseline phase represents a history threat to internal validity, as it introduces an external event unrelated to the intervention that could affect the target behavior. The variability and overlap in the second intervention phase data make it difficult to determine if the changes observed are due to the token economy or the disruption caused by the substitute teacher. Instrumentation threats involve changes in measurement methods or procedures, which are not indicated here. Maturation threats involve internal changes within participants over time, but the scenario explicitly describes an external event (substitute teacher), not internal changes. Testing threats refer to changes resulting from repeated measurement, but this scenario does not suggest participant reactivity to measurement procedures. Therefore, option A correctly identifies the history threat and accurately interprets the graphed data.",
+    "domain": [
+      "Experimental Design",
+      "Measurement, Data Display, and Interpretation"
+    ],
+    "subdomain": [
+      "D3",
+      "C11"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "86742bb9-d15b-4554-8e9f-f79346245051",
+    "question": "Which assessment type yields the least precise information?",
+    "options": [
+      "Direct Assessment",
+      "Initial Assessment",
+      "Indirect Assessment",
+      "Functional Analysis"
+    ],
+    "correct_answer": 2,
+    "rationale": "Correct Answer Explanation: Indirect Assessment. Indirect assessments, which include interviews, questionnaires, and rating scales, often rely on secondhand information and subjective reports, making them less precise compared to direct observations and functional analyses. Incorrect Answers: A. Direct Assessment. Direct assessments involve observing and recording behavior in real-time, providing more precise and objective information. B. Initial Assessment. The precision of an initial assessment depends on the methods used, but it generally includes direct observation and other precise data collection methods. D. Functional Analysis. Functional analysis systematically manipulates variables to identify the function of behavior, yielding very precise information. Test Content Outline 6th Edition Domain: F-8 Cooper Chapter: 27 Rationale: \u201cThe Function Rises to the Top!\u201d Look for the highest data path. In this example, it is alone. This means that the function is sensory. However, if the data paths are crossing or extremely variable- there could not be a clear answer and the FA should be continued.",
+    "domain": [
+      "F-6"
+    ],
+    "subdomain": [],
+    "difficulty": null,
+    "model_params": {
+      "model": "expert",
+      "temperature": null,
+      "max_tokens": null
+    },
+    "prompts": {
+      "system_prompt": null,
+      "user_prompt": null
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "46ef9b2b-f803-425c-90bc-31dca38aa48b",
+    "question": "In a fifth-grade classroom, Mrs. Johnson is trying to improve her students' on-task behavior during independent reading time. She decides to implement a group contingency plan. What are the conditions that should be met for an independent group contingency?",
+    "options": [
+      "Reinforcers are based on the performance of the group as a whole.",
+      "Reinforcers are given to the group based on the behavior of a selected individual.",
+      "Reinforcers are given to each individual based on their own performance.",
+      "Reinforcers are withheld until all group members meet the requirements."
+    ],
+    "correct_answer": 2,
+    "rationale": "Correct Answer Explanation: Reinforcers are given to each individual based on their own performance. In an independent group contingency, each individual's reinforcement is contingent on their own behavior, regardless of how others perform. Incorrect Answers: A. Reinforcers are based on the performance of the group as a whole. This describes an interdependent group contingency. B. Reinforcers are given to the group based on the behavior of a selected individual. This describes a dependent group contingency. D. Reinforcers are withheld until all group members meet the requirements. This describes an interdependent group contingency.",
+    "domain": [
+      "G-14"
+    ],
+    "subdomain": [],
+    "difficulty": null,
+    "model_params": {
+      "model": "expert",
+      "temperature": null,
+      "max_tokens": null
+    },
+    "prompts": {
+      "system_prompt": null,
+      "user_prompt": null
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "71c71354-b9bd-4c73-9a64-cae40d6b8998",
+    "question": "You are supervising a new behavior technician, Alex, who recently moved from another country. During initial supervision sessions, you notice Alex seems hesitant to ask questions and rarely initiates communication. After conducting a brief assessment, you discover Alex has strong technical skills but comes from a culture where questioning authority figures is considered disrespectful. To establish an effective supervisory relationship and improve Alex's professional growth, what would be the most appropriate next step?",
+    "options": [
+      "Provide Alex with a written contract clearly outlining expectations, including the expectation to ask questions and communicate openly, and explain its importance in supervision.",
+      "Immediately schedule a meeting to give Alex corrective feedback about the importance of asking questions and initiating communication during supervision.",
+      "Adjust your supervision goals to focus solely on technical skill improvement, as Alex already demonstrates strong technical abilities and cultural differences should not influence supervision.",
+      "Wait until Alex independently initiates communication, as intervening too soon may negatively impact your supervisory relationship."
+    ],
+    "correct_answer": 0,
+    "rationale": "Providing Alex with a clear, written supervisor-supervisee contract that explicitly outlines expectations (such as asking questions and open communication) addresses the cultural barrier respectfully and proactively. This approach aligns with establishing clear expectations (I2), selecting supervision goals based on cultural variables and supervisee skills (I4), and ultimately promotes effective behavior-analytic supervision, leading to improved supervisee performance (I1). Option B is overly corrective and may negatively impact rapport. Option C ignores the importance of cultural variables and communication skills in supervision. Option D is passive and does not actively address the identified barrier to effective supervision.",
+    "domain": [
+      "Personnel Supervision and Management"
+    ],
+    "subdomain": [
+      "I2",
+      "I1",
+      "I4"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "10654bec-aeb6-48f2-bf26-b7bef8c714e0",
+    "question": "What does engaging in cultural humility primarily involve when delivering ABA services?",
+    "options": [
+      "Assuming that your cultural perspective is the most effective.",
+      "Continuously learning about and respecting the cultural backgrounds of clients.",
+      "Applying the same intervention strategies to all clients regardless of their cultural background.",
+      "Ignoring cultural differences to maintain objectivity."
+    ],
+    "correct_answer": 1,
+    "rationale": "Engaging in cultural humility involves a commitment to self-evaluation and self-critique, recognizing and respecting the cultural backgrounds of clients, and being open to learning from them. This approach ensures that services are delivered in a culturally sensitive and effective manner. Option B reflects this understanding, while the other options suggest a lack of cultural awareness or sensitivity.",
+    "domain": [
+      "Ethical and Professional Issues"
+    ],
+    "subdomain": [
+      "E9"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    },
+    "bloom_taxonomy": "Understand"
+  },
+  {
+    "id": "4de4cf5f-9388-4895-a912-ae99f3626a81",
+    "question": "A BCBA is conducting a behavior assessment for a 10-year-old child who has recently immigrated with their family from a non-English speaking country. The child exhibits aggressive behavior in school, and the teacher reports that the child often seems frustrated during group activities. The BCBA needs to determine whether behavior-analytic services are appropriate or if a referral to another professional is necessary. Which of the following steps should the BCBA take to effectively integrate cultural variables and interpret the assessment data?",
+    "options": [
+      "Conduct a functional behavior assessment (FBA) and immediately implement a behavior intervention plan based on the results.",
+      "Interview the family using a culturally sensitive approach, gather information about the child's previous educational experiences, and consider language barriers before interpreting the FBA results.",
+      "Refer the child to a speech therapist due to the language barrier without conducting a behavior assessment.",
+      "Focus solely on the teacher's reports and implement a behavior intervention plan based on the observed aggressive behavior."
+    ],
+    "correct_answer": 1,
+    "rationale": "The correct answer, B, demonstrates the integration of cultural variables by considering the family's background and language barriers, which is essential for accurately interpreting assessment data (F2). It also reflects the need to gather comprehensive information before determining the appropriate course of action, aligning with the requirement to interpret assessment data to decide on behavior-analytic services or referrals (F7). Option A overlooks cultural considerations and prematurely implements an intervention. Option C assumes a referral is necessary without conducting a thorough assessment. Option D ignores cultural factors and relies solely on the teacher's perspective, which may not provide a complete understanding of the child's behavior.",
+    "domain": [
+      "Behavior Assessment"
+    ],
+    "subdomain": [
+      "F2",
+      "F7"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "7998eff8-477f-409f-ac14-39f7c38cc6ca",
+    "question": "A behavior analyst is designing an experiment to evaluate the effectiveness of a new teaching method on improving math skills in children with autism. The study involves two groups: one receiving the new method and the other receiving traditional instruction. The analyst measures the number of trials to criterion for each child to master a set of math problems. Additionally, the analyst conducts a cost-benefit analysis comparing the two methods in terms of training duration and resources used. Which of the following best describes the dependent and independent variables, and the most efficient way to measure the effectiveness of the teaching methods?",
+    "options": [
+      "The independent variable is the type of teaching method, the dependent variable is the number of trials to criterion, and the most efficient measure is the cost-benefit analysis.",
+      "The independent variable is the number of trials to criterion, the dependent variable is the type of teaching method, and the most efficient measure is the training duration.",
+      "The independent variable is the type of teaching method, the dependent variable is the training duration, and the most efficient measure is the number of trials to criterion.",
+      "The independent variable is the training duration, the dependent variable is the number of trials to criterion, and the most efficient measure is the type of teaching method."
+    ],
+    "correct_answer": 0,
+    "rationale": "In this scenario, the independent variable is the type of teaching method (new vs. traditional), as it is the condition manipulated by the behavior analyst. The dependent variable is the number of trials to criterion, as it measures the outcome of the teaching methods' effectiveness on the children's math skills. The cost-benefit analysis, which considers both training duration and resources used, provides a comprehensive measure of efficiency, aligning with the learning objectives of measuring efficiency and distinguishing between dependent and independent variables. Option A correctly identifies these elements, while the other options contain errors in identifying the variables or the most efficient measure.",
+    "domain": [
+      "Experimental Design",
+      "Measurement, Data Display, and Interpretation"
+    ],
+    "subdomain": [
+      "D1",
+      "C7"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "1b79a101-af8d-43ab-a04c-ba2df52fbbc8",
+    "question": "A behavior analyst is working with a child diagnosed with autism who exhibits a range of challenging behaviors in different settings, such as home, school, and community environments. The analyst decides to implement a comprehensive intervention that includes teaching the child to use functional communication to express needs and wants. To promote generalization of this communication skill across various contexts, the analyst incorporates multiple settings, different communication partners, and varied materials during training sessions. After several weeks, the child demonstrates significant improvement in communication but continues to struggle with generalizing the skill to untrained settings. Considering the principles of radical behaviorism and the need for effective generalization strategies, which of the following approaches should the analyst take to best enhance stimulus and response generalization?",
+    "options": [
+      "Conduct a functional analysis of the child's challenging behaviors to identify specific antecedents and consequences in each setting, then modify the intervention accordingly to address those variables.",
+      "Introduce a token economy system that rewards the child for using functional communication in any setting, regardless of the presence of trained communication partners or materials.",
+      "Use multiple exemplars of communication situations during training that include various people, places, and communication modalities, while also ensuring that the child practices in natural settings without prompts.",
+      "Implement a differential reinforcement strategy that only reinforces the child\u2019s communication when it occurs in the presence of trained peers but not in other settings to prevent confusion."
+    ],
+    "correct_answer": 2,
+    "rationale": "The question integrates concepts from radical behaviorism by emphasizing the importance of observable behavior and the environmental contexts that influence it. Option C effectively promotes generalization by utilizing multiple exemplars, which is a well-established method to facilitate both stimulus and response generalization. It ensures that the child practices functional communication across various contexts, thereby increasing the likelihood that the skill will transfer to untrained settings. Option A, while valuable for understanding challenging behaviors, does not directly address the need for generalization of communication skills. Option B may lead to confusion and does not ensure the application of skills in natural contexts. Option D restricts the child's opportunities for generalization by limiting reinforcement to specific trained peers, which contradicts the goal of promoting broader skill application.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations",
+      "Behavior-Change Procedures"
+    ],
+    "subdomain": [
+      "A3",
+      "G15"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "abf90031-0e8a-49bc-b12c-c4da6b65d8f2",
+    "question": "Dr. Smith is supervising a BCBA candidate, Alex, who is conducting a study to evaluate the effectiveness of a new intervention designed to increase on-task behavior in a classroom setting. The study uses a multiple baseline design across three students. During supervision, Dr. Smith notices that Alex is struggling to differentiate between the variables in the study and is also having difficulty managing the performance of the classroom aides who are implementing the intervention. To address these issues, Dr. Smith decides to use a function-based approach to improve Alex's understanding and performance. Which of the following steps should Dr. Smith take to effectively apply a function-based approach to both distinguish between the variables and enhance Alex's supervisory skills?",
+    "options": [
+      "Conduct a performance diagnostic to identify the antecedents and consequences affecting Alex's understanding of the variables, and provide training on distinguishing between dependent and independent variables.",
+      "Implement a reinforcement system for the classroom aides to ensure consistent application of the intervention, and provide Alex with a checklist to differentiate between the variables.",
+      "Use a task analysis to break down the steps of the intervention for the classroom aides, and conduct a role-play with Alex to practice identifying dependent and independent variables.",
+      "Provide Alex with a detailed literature review on experimental design, and use a feedback system to monitor and improve the aides' implementation fidelity."
+    ],
+    "correct_answer": 0,
+    "rationale": "Option A is correct because it directly applies a function-based approach by conducting a performance diagnostic to identify the antecedents and consequences affecting Alex's understanding, which aligns with the learning objective I6. This approach helps in distinguishing between dependent and independent variables (D1) by addressing the root cause of Alex's difficulty. Additionally, providing targeted training ensures that Alex gains the necessary skills to differentiate the variables effectively. Option B incorrectly focuses on reinforcing the aides without addressing Alex's understanding of the variables. Option C uses a task analysis and role-play, which may not directly address the function of Alex's misunderstanding. Option D provides a literature review, which is not a function-based approach, and focuses on feedback for aides rather than improving Alex's skills.",
+    "domain": [
+      "Experimental Design",
+      "Personnel Supervision and Management"
+    ],
+    "subdomain": [
+      "D1",
+      "I6"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "a45b5aa2-6bfb-4cc6-bec6-a776570b7e0c",
+    "question": "Leila is a 16-year-old receiving applied behavior analytic services. She has recently been engaging in tantruming behavior whenever she is denied access to her phone. If she does have access to her phone during the weeknights, she stays on the phone all night and has a difficult time waking up in the morning. Leila's BCBA and her parents decide to deny Leila access to her phone until the summertime. In the first few days after starting this procedure, Leila's tantrums increased so much that her parents considered giving her the phone back, and called the BCBA stating that ABA is not working . What is the most likely explanation for the increase in Leila's tantrums?",
+    "options": [
+      "The procedure is not effective, and another strategy should be tried.",
+      "Leila's tantrums increased due to an extinction burst.",
+      "Leila's behavior is getting worse because she is now seeking attention in other ways.",
+      "The procedure is too restrictive and the phone should be limited after 9 P.M. instead of throughout the school year."
+    ],
+    "correct_answer": 1,
+    "rationale": "Correct Answer Explanation: Leila's tantrums increased due to an extinction burst. An extinction burst is a temporary increase in the frequency or intensity of the behavior when the reinforcement that previously maintained the behavior is no longer provided. Leila's increase in tantrums is a common response when access to a previously available reinforcer (her phone) is suddenly denied. Incorrect Answers: A. The procedure is not effective, and another strategy should be tried. The increase in tantrums is expected during an extinction burst and does not necessarily indicate that the procedure is ineffective. C. Leila's behavior is getting worse because she is now seeking attention in other ways. While she might seek attention in other ways, the primary reason for the initial increase is likely due to the extinction burst. D. The procedure is too restrictive and the phone should be limited after 9 P.M. instead of throughout the school year. While this could be a consideration, the immediate increase in tantrums is best explained by the extinction burst rather than the restrictiveness of the procedure.",
+    "domain": [
+      "H-4"
+    ],
+    "subdomain": [],
+    "difficulty": null,
+    "model_params": {
+      "model": "expert",
+      "temperature": null,
+      "max_tokens": null
+    },
+    "prompts": {
+      "system_prompt": null,
+      "user_prompt": null
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "1b5c3f27-ebac-455f-86dd-25ef156f19cf",
+    "question": "A BCBA conducts an experiment to evaluate the effects of different schedules of reinforcement on a child's task completion behavior. Initially, she implements a multiple schedule design alternating between FR5 and FI 3-min schedules, each correlated with distinct colored cards. Subsequently, she introduces a chained schedule requiring the child to first complete tasks on an FR5 schedule (indicated by a blue card), immediately followed by an FI 3-min schedule (indicated by a yellow card), before reinforcement is delivered. Reviewing the graphed data, the BCBA notes clear stimulus control under the multiple schedule, but observes inconsistent responding and longer latency to initiate tasks under the chained schedule. Which of the following interpretations best explains these observed data patterns?",
+    "options": [
+      "The chained schedule weakened stimulus control because the discriminative stimuli in the second component functioned as conditioned reinforcers, making responding in the initial component less reinforcing and thus more variable.",
+      "The chained schedule introduced ambiguity in stimulus control by combining two previously distinct discriminative stimuli, which disrupted the clear contingency established in the multiple schedule.",
+      "The chained schedule increased response effort and delayed reinforcement delivery, reducing discriminative stimulus effectiveness and resulting in inconsistent responding and increased latency.",
+      "The chained schedule inadvertently functioned as a concurrent schedule, allowing the child to allocate responding unevenly between schedule components and thus decreasing overall response consistency."
+    ],
+    "correct_answer": 2,
+    "rationale": "",
+    "domain": [
+      "Experimental Design",
+      "Concepts and Principles"
+    ],
+    "subdomain": [
+      "D6",
+      "B10"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "9c1baadf-86b6-4dee-b43d-bd360aeceefa",
+    "question": "A BCBA is evaluating a new token economy system designed to increase homework completion in a classroom. Initially, the BCBA compares the effectiveness of tokens alone, tokens paired with praise, and praise alone. After determining tokens paired with praise is most effective, the BCBA systematically manipulates the number of tokens required to earn reinforcement. A colleague questions whether the results will generalize to other classrooms and students. Which statement accurately describes the BCBA's analysis and addresses the colleague's concern?",
+    "options": [
+      "The BCBA conducted a parametric analysis to identify the most effective treatment combination; generalization to other students is guaranteed due to the thoroughness of the analysis.",
+      "The BCBA conducted a comparative analysis followed by a parametric analysis; although internal validity is strong, external validity is limited without replication in other contexts.",
+      "The BCBA conducted a component analysis followed by a comparative analysis; external validity is high because multiple treatment components were tested.",
+      "The BCBA conducted a comparative analysis only; external validity is strong because multiple treatments were compared directly."
+    ],
+    "correct_answer": 1,
+    "rationale": "The BCBA initially conducted a comparative analysis by directly comparing three treatment conditions (tokens alone, tokens with praise, praise alone) to determine the most effective combination. Subsequently, a parametric analysis was conducted by systematically varying the number of tokens required to receive reinforcement. These analyses enhance internal validity by clearly demonstrating functional relations. However, external validity, or the ability to generalize findings to other contexts, populations, or settings, remains limited unless replication occurs across multiple classrooms or students.",
+    "domain": [
+      "Experimental Design"
+    ],
+    "subdomain": [
+      "D2",
+      "D8"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "308769a1-0964-4cc9-92aa-3cb0c6661fa3",
+    "question": "A BCBA is evaluating the effectiveness of a new social skills training program for children with autism. They decide to measure the number of appropriate social interactions during structured play sessions. The BCBA collects data using a discontinuous measurement procedure, specifically momentary time sampling, to assess the frequency of these interactions. After analyzing the data, the BCBA finds that the program appears to be effective. However, they are concerned about the accuracy of the data collected due to the nature of the measurement procedure. To ensure procedural integrity and account for relevant dimensions, what additional measurement procedure should the BCBA consider implementing to complement their findings?",
+    "options": [
+      "Continuous measurement of every social interaction during the play sessions to capture all occurrences.",
+      "A cost-benefit analysis of the training program to determine its overall value compared to other interventions.",
+      "A training duration assessment to evaluate how long the children engage in social interactions.",
+      "A survey of parent-reported social interactions outside of structured sessions to gather additional data."
+    ],
+    "correct_answer": 0,
+    "rationale": "The scenario requires the BCBA to ensure that the data collected accurately reflects the behavior of interest. Continuous measurement, such as frequency recording, would provide a more comprehensive account of all social interactions, addressing the limitations of momentary time sampling, which may miss interactions occurring outside of the sampled moments. This aligns with the learning objectives of distinguishing between continuous and discontinuous measurement procedures (C5) and selecting a measurement procedure that accounts for accuracy (C12). The other options, while relevant to program evaluation, do not directly address the need for accurate measurement of the specific behavior in question.",
+    "domain": [
+      "Measurement, Data Display, and Interpretation"
+    ],
+    "subdomain": [
+      "C5",
+      "C7",
+      "C12"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Evaluate"
+  },
+  {
+    "id": "6121a494-e441-4dff-bb2f-6926b8f0d9eb",
+    "question": "A BCBA supervising a team of behavior technicians notices that staff members frequently skip data collection during busy periods, resulting in inconsistent client data. To address this, the BCBA first clearly defines data collection expectations, then demonstrates correct procedures, and provides opportunities for technicians to practice. Afterward, the BCBA regularly observes technicians and provides immediate, specific feedback and praise when data collection is accurate and timely. Which combination of performance management procedures is the BCBA primarily utilizing, and what is the likely benefit of this approach?",
+    "options": [
+      "Task clarification, modeling, practice, and feedback; likely resulting in improved staff performance and more reliable client data.",
+      "Task clarification, modeling, and manipulation of response effort; likely resulting in increased staff retention but minimal impact on client outcomes.",
+      "Reinforcement, modeling, and manipulation of response effort; likely resulting in improved staff morale but inconsistent data collection.",
+      "Feedback, reinforcement, and task clarification; likely resulting in immediate improvement in data collection but decreased staff retention over time."
+    ],
+    "correct_answer": 0,
+    "rationale": "The BCBA clearly defined expectations (task clarification), demonstrated the correct behavior (modeling), allowed practice opportunities, and provided immediate, specific feedback. These empirically validated performance management procedures directly address the performance issue and are likely to improve staff performance, resulting in more accurate and reliable client data. Option B incorrectly includes manipulation of response effort, which was not described in the scenario, and inaccurately suggests minimal impact on client outcomes. Option C incorrectly emphasizes reinforcement and manipulation of response effort without mentioning feedback or task clarification, thus not fully matching the described scenario. Option D incorrectly predicts decreased staff retention, which contradicts the known benefits of behavior-analytic supervision practices.",
+    "domain": [
+      "Personnel Supervision and Management"
+    ],
+    "subdomain": [
+      "I5",
+      "I1"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "1d6c542c-a548-4ff8-8445-7a909f02aed8",
+    "question": "A BCBA is supervising a new behavior technician who has recently completed their training. The technician is working with a culturally diverse client population in a community setting. After observing the technician's initial sessions, the BCBA identifies that while the technician demonstrates strong technical skills, they struggle to engage effectively with clients from different cultural backgrounds. As part of the supervision process, the BCBA must select appropriate supervision goals that not only address the technician's skill deficits but also consider the cultural variables and the community environment. Which of the following goals would best support the technician's professional development while enhancing client services?",
+    "options": [
+      "Develop a training module that focuses exclusively on the technician's technical skills in behavior analysis without addressing cultural competencies.",
+      "Implement a mentorship program that pairs the technician with experienced professionals who have a strong understanding of cultural responsiveness and community engagement strategies.",
+      "Require the technician to complete a series of online courses on ABA principles, regardless of their relevance to cultural responsiveness or community dynamics.",
+      "Set a goal for the technician to independently create intervention plans for clients without providing feedback or collaborative opportunities to enhance their understanding of cultural variables."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B is the best choice as it aligns with the learning objectives by integrating the need for supervision goals based on an assessment of the technician\u2019s skills and the cultural variables present in the client population. This approach promotes collaboration with experienced professionals, enhancing the technician's ability to provide culturally responsive services, which ultimately benefits client outcomes. Option A fails to address the cultural aspect, option C lacks relevance to the specific needs of the technician, and option D does not foster collaboration or support in skill development, which is crucial for effective supervision and client service enhancement.",
+    "domain": [
+      "Personnel Supervision and Management",
+      "Selecting and Implementing Interventions"
+    ],
+    "subdomain": [
+      "I4",
+      "H8"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "362692c2-595f-4c4d-a057-3ec73a3f71c6",
+    "question": "A BCBA is supervising a team of RBTs who are tasked with implementing a behavior intervention plan (BIP) for a child with autism. The BCBA notices that the RBTs are inconsistently recording data on the frequency of the child's target behaviors and are relying heavily on anecdotal reports from parents to assess progress. To improve the data collection and ensure a more accurate evaluation of the child's behavior, the BCBA decides to implement a new measurement system. Which of the following actions would best exemplify a function-based approach for assessing and improving the RBTs' behavior while also ensuring the use of appropriate measurement methods?",
+    "options": [
+      "The BCBA conducts a training session solely focused on the importance of anecdotal data and encourages the RBTs to prioritize parent reports over direct observation.",
+      "The BCBA implements a structured data collection protocol that includes both direct measures (e.g., frequency counts during sessions) and indirect measures (e.g., parent surveys) and monitors the RBTs' adherence to this protocol through regular performance feedback.",
+      "The BCBA decides to replace the BIP with a new intervention based on the RBTs' feedback about the current data collection methods without assessing the effectiveness of the previous intervention.",
+      "The BCBA instructs the RBTs to collect data only on the most severe behaviors and to ignore less severe incidents, believing that this will simplify their data collection process."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B exemplifies a function-based approach by incorporating both direct and indirect measures of behavior, allowing for a comprehensive assessment of the child's progress while also addressing the RBTs' data collection practices. This aligns with the learning objectives by distinguishing between measurement types and applying performance diagnostics to improve supervisee behavior. Option A misguides the RBTs by emphasizing anecdotal data, which is less reliable. Option C fails to address the importance of data collection and does not utilize a systematic approach to improve the current intervention. Option D oversimplifies the data collection process, potentially leading to incomplete and inaccurate assessments of the child's behavior.",
+    "domain": [
+      "Measurement, Data Display, and Interpretation",
+      "Personnel Supervision and Management"
+    ],
+    "subdomain": [
+      "C2",
+      "I6"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "bfd7848a-f1b6-40d2-b8f0-2ae00701f785",
+    "question": "A behavior analyst is working with a client who exhibits aggressive behavior. The intervention has been in place for six weeks, and the data shows a significant reduction in aggression. However, during a recent session, the client displayed a sudden increase in aggressive behaviors. The behavior analyst wants to ensure the intervention remains effective and plans to address potential relapse. What should the behavior analyst do first to address this situation effectively?",
+    "options": [
+      "Immediately modify the intervention by introducing a new reinforcement schedule.",
+      "Review the data to identify any patterns or triggers that may have contributed to the relapse.",
+      "Discontinue the current intervention and implement a new behavior reduction strategy.",
+      "Increase the frequency of reinforcement for alternative behaviors without reviewing the data."
+    ],
+    "correct_answer": 1,
+    "rationale": "The correct answer is B. Before making any changes to the intervention, the behavior analyst should review the data to identify potential patterns or triggers that may have contributed to the relapse. This aligns with the learning objective H7, which emphasizes making data-based decisions about the effectiveness of the intervention. By understanding the context of the relapse, the behavior analyst can plan more effectively to mitigate future occurrences, addressing learning objective H5. Option A is incorrect as it suggests a modification without data analysis, which may not address the root cause. Option C is incorrect because discontinuing the intervention without analysis could lead to further issues. Option D is incorrect as it suggests an action without understanding the data, which could reinforce inappropriate behaviors.",
+    "domain": [
+      "Selecting and Implementing Interventions"
+    ],
+    "subdomain": [
+      "H7",
+      "H5"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "e41440a9-9a20-4e9d-a1b3-d17922062888",
+    "question": "A BCBA is implementing a differential reinforcement procedure to reduce a student's disruptive calling-out behavior during class. After two weeks, data indicate that calling-out has decreased slightly but remains above the desired goal. Additionally, the student is now frequently raising their hand excessively, even when they have nothing relevant to say. What would be the most appropriate next step for the BCBA to take?",
+    "options": [
+      "Continue the current intervention without changes, as calling-out behavior is decreasing, even if slowly.",
+      "Clearly redefine the intervention goal to include measurable criteria for appropriate hand-raising and adjust reinforcement accordingly.",
+      "Immediately discontinue reinforcement procedures to prevent further unwanted side effects.",
+      "Introduce a mild punishment procedure to quickly eliminate both calling-out and excessive hand-raising behaviors."
+    ],
+    "correct_answer": 1,
+    "rationale": "The correct answer is B because the BCBA must make data-based decisions (H7) regarding intervention effectiveness. Although calling-out has decreased slightly, the emergence of excessive hand-raising indicates an unwanted side effect (H4) of the current reinforcement procedure. To address this, the BCBA should clearly redefine the intervention goal in observable and measurable terms (H1), explicitly including appropriate hand-raising criteria, and adjust reinforcement accordingly. Option A ignores the unwanted side effect and does not adequately address the intervention's limited effectiveness. Option C prematurely discontinues reinforcement without attempting modifications, potentially causing further issues. Option D introduces punishment prematurely without first attempting less restrictive modifications to the reinforcement procedure.",
+    "domain": [
+      "Selecting and Implementing Interventions"
+    ],
+    "subdomain": [
+      "H7",
+      "H1",
+      "H4"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4.5-preview",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "dab209ce-70b1-454e-ba9d-12ab673d40f8",
+    "question": "As a BCBA supervising a new therapist, you notice that the therapist struggles with implementing behavior intervention plans accurately. After conducting a performance diagnostic assessment, you identify that the therapist lacks confidence in their skills and is unsure about certain cultural nuances of the clients they work with. Which of the following supervision strategies would best address these issues by integrating a function-based approach and culturally responsive performance management procedures?",
+    "options": [
+      "Increase the frequency of direct observations and provide corrective feedback immediately after each session.",
+      "Conduct a workshop on cultural competence and provide ongoing modeling and practice opportunities tailored to the therapist's skill deficits.",
+      "Implement a token economy system to reinforce the therapist's accurate implementation of intervention plans.",
+      "Assign the therapist additional reading materials on cultural diversity and require a written reflection on how these apply to their work."
+    ],
+    "correct_answer": 1,
+    "rationale": "Option B is the correct answer as it addresses both the identified skill deficits and the cultural nuances by providing a workshop on cultural competence, which is culturally responsive, and offering modeling and practice opportunities, which are empirically validated performance management procedures. This approach is function-based as it directly targets the identified issues from the performance diagnostic assessment. Option A, while useful for providing feedback, does not address the cultural aspect or provide skill-building opportunities. Option C focuses on reinforcement without addressing the underlying skill deficits or cultural considerations. Option D provides knowledge but lacks practical application and immediate feedback, which are crucial for skill acquisition and confidence building.",
+    "domain": [
+      "Personnel Supervision and Management"
+    ],
+    "subdomain": [
+      "I6",
+      "I5",
+      "I4"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "5b0070db-1a9e-49ca-a4d2-72ce0cee680c",
+    "question": "A BCBA is working with a school-aged child who exhibits severe tantrums when asked to transition from preferred activities to non-preferred tasks. After conducting a functional behavior assessment, the BCBA determines that the tantrums are maintained by escape from demands. The BCBA decides to implement a differential reinforcement of alternative behavior (DRA) intervention, where the child is reinforced for requesting breaks appropriately. However, the BCBA also considers the child's cultural background, the school's resources, and the staff's training level. Which of the following actions best aligns with the BCBA's responsibility to select and implement an effective intervention based on the assessment results and contextual fit?",
+    "options": [
+      "Implement the DRA intervention immediately without training the staff, as the child will learn to request breaks on their own.",
+      "Conduct a follow-up assessment to determine the effectiveness of the DRA intervention after one week, regardless of the staff's understanding of the intervention.",
+      "Provide training for the staff on the DRA intervention, ensuring they understand how to implement it consistently and can adapt it to the child's cultural context.",
+      "Recommend a more intensive intervention, such as a functional communication training (FCT) program, without considering the school's resources or staff expertise."
+    ],
+    "correct_answer": 2,
+    "rationale": "Option C is the correct answer as it emphasizes the importance of training staff to ensure consistent implementation of the DRA intervention, which is crucial for its effectiveness. This aligns with the learning objective H2, as it considers the contextual fit (staff training and cultural variables) while also being based on the assessment results. Option A is incorrect because it neglects the need for staff training, which is essential for effective intervention. Option B fails to consider the need for ongoing support and training for staff, which is critical for the success of the intervention. Option D is misleading as it suggests a more intensive intervention without assessing the feasibility based on available resources and staff expertise, thus not aligning with the principles of selecting appropriate interventions.",
+    "domain": [
+      "Selecting and Implementing Interventions",
+      "Measurement, Data Display, and Interpretation"
+    ],
+    "subdomain": [
+      "H2",
+      "C2"
+    ],
+    "difficulty": "hard",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/hard_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "6870074a-31bb-4b99-92d6-99b03aad3569",
+    "question": "Which of the following is NOT one of the dimensions of applied behavior analysis?",
+    "options": [
+      "Generality",
+      "Effective",
+      "Subjectivity",
+      "Technological"
+    ],
+    "correct_answer": 2,
+    "rationale": "The dimensions of applied behavior analysis include Generality, Effective, and Technological. Subjectivity does not align with the objective of ABA, which emphasizes objective measurement and analysis of behavior. This question tests the basic understanding of the dimensions of ABA, allowing for direct recall of the correct terms.",
+    "domain": [
+      "Behaviorism and Philosophical Foundations"
+    ],
+    "subdomain": [
+      "A5"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    },
+    "bloom_taxonomy": "Remember"
+  },
+  {
+    "id": "c35d6d5e-2c97-44b8-80b3-2eaf284c8e86",
+    "question": "Which of the following is the most accurate definition of a mand, as described by B.F. Skinner?",
+    "options": [
+      "A request that has been previously reinforced by the speaker",
+      "A verbal operant that is controlled by a specific stimulus",
+      "A response that is maintained by the removal of an aversive stimulus",
+      "A verbal operant that is controlled by an establishing operation"
+    ],
+    "correct_answer": 3,
+    "rationale": "A mand, as defined by B.F. Skinner, is a verbal operant controlled by an establishing operation (EO). An EO is a motivational variable that increases the likelihood of a specific behavior. In the case of a mand, the behavior is maintained by the reinforcement that follows it, which is directly related to the EO. For example, saying \"water\" when thirsty (EO) is a mand if the speaker has previously received water (reinforcer) after saying \"water.\" Option A is partially correct but does not include the critical component of the EO. Option B describes a tact, not a mand. Option C describes negative reinforcement but is not specifically related to mands.",
+    "domain": [
+      "Concepts and Principles"
+    ],
+    "subdomain": [],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "mistral-large-latest",
+      "temperature": 0.2,
+      "max_tokens": 1024
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Remember"
+  },
+  {
+    "id": "2f8c3083-124a-4d5c-90ac-0b30fad32619",
+    "question": "Which of the following experimental designs is most suitable for demonstrating a functional relationship between a specific behavior and an environmental variable while controlling for extraneous variables?",
+    "options": [
+      "AB design",
+      "Multiple baseline design",
+      "Changing criterion design",
+      "Alternating treatments design"
+    ],
+    "correct_answer": 1,
+    "rationale": "The multiple baseline design is most suitable for demonstrating a functional relationship between a specific behavior and an environmental variable while controlling for extraneous variables. This design involves implementing the intervention at different points in time across different baselines (e.g., behaviors, settings, or individuals). By staggering the introduction of the intervention, the multiple baseline design allows for the control of extraneous variables, such as maturation or history, which might otherwise threaten the internal validity of the study. If the behavior changes only when the intervention is applied, it provides strong evidence of a functional relationship.",
+    "domain": [
+      "Experimental Design"
+    ],
+    "subdomain": [],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "mistral-large-latest",
+      "temperature": 0.2,
+      "max_tokens": 1024
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Analyze"
+  },
+  {
+    "id": "1b211b84-0bdd-480c-88d1-7674b07fa81b",
+    "question": "A BCBA is working with a family to implement a behavior intervention plan for their child with autism. During the process, the BCBA realizes that they have a personal friendship with one of the family members. This relationship could potentially influence the BCBA's objectivity in decision-making. What is the most appropriate course of action for the BCBA to take to mitigate the risks associated with this multiple relationship?",
+    "options": [
+      "Continue working with the family while being aware of the friendship, as personal relationships do not impact professional judgment.",
+      "Disclose the friendship to the family and seek their input on how to proceed, ensuring transparency in the relationship.",
+      "Refer the family to another BCBA without discussing the friendship, to avoid any potential conflicts of interest.",
+      "Maintain the current relationship and ignore any potential biases, as the friendship is not relevant to the intervention plan."
+    ],
+    "correct_answer": 1,
+    "rationale": "The correct answer is B because it emphasizes the importance of transparency and communication in managing multiple relationships, which is crucial to maintaining ethical standards in practice. By disclosing the friendship, the BCBA acknowledges the potential for bias and allows the family to be part of the decision-making process, thereby mitigating risks associated with dual relationships. Option A reflects a common misconception that personal relationships do not affect professional judgment, while option C, although well-intentioned, lacks the necessary communication and transparency. Option D disregards the ethical responsibility to recognize and address personal biases, which can interfere with professional activities.",
+    "domain": [
+      "Ethical and Professional Issues"
+    ],
+    "subdomain": [
+      "E2",
+      "E7",
+      "E11"
+    ],
+    "difficulty": "medium",
+    "model_params": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.2,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/medium_prompt.txt"
+    },
+    "bloom_taxonomy": "Evaluate"
+  },
+  {
+    "id": "338ec9f6-4feb-48b5-9dde-aabe8857025a",
+    "question": "Which of the following is an example of rule-governed behavior?",
+    "options": [
+      "A child stops at a red light because they remember their parent saying to always stop at red lights.",
+      "A dog sits when it hears the command \"sit\" and receives a treat.",
+      "A student studies for a test because they have always done well on exams after studying.",
+      "A toddler touches a hot stove and immediately pulls their hand away."
+    ],
+    "correct_answer": 0,
+    "rationale": "Rule-governed behavior is controlled by verbal or written instructions, rules, or laws, rather than direct experience with consequences. Option A is an example of rule-governed behavior because the child is stopping at the red light based on a rule communicated by their parent. In contrast, options B, C, and D are examples of contingency-shaped behavior, where behavior is directly influenced by its consequences, such as receiving a treat, past success, or immediate pain.",
+    "domain": [
+      "Concepts and Principles"
+    ],
+    "subdomain": [
+      "B18"
+    ],
+    "difficulty": "easy",
+    "model_params": {
+      "model": "gpt-4o",
+      "temperature": 0.5,
+      "max_tokens": 1000
+    },
+    "prompts": {
+      "system_prompt": "system_prompt_0.txt",
+      "user_prompt": "difficulty_prompts_0/easy_prompt.txt"
+    },
+    "bloom_taxonomy": "Understand"
+  }
+]

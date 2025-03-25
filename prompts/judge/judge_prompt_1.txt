@@ -1,0 +1,51 @@
+Return your response in valid JSON format without any extra text.
+
+---
+
+### Question Information:
+Question: {question}
+Options: {options}
+Correct Answer Index: {correct_answer}
+Rationale: {rationale}
+Domain: {domain}
+Subdomain: {subdomain}
+Difficulty: {cat_difficulty}
+Bloom Taxonomy Level: {bloom_taxonomy}
+
+---
+
+### Explicit Rating System
+Each criterion should be rated from 1 to 5, following these definitions: 
+
+- 1 - Unacceptable: Severe flaws, major errors, or misleading information. Needs a complete rewrite.  
+- 2 - Weak: Significant issues, but partially usable with major revisions.  
+- 3 - Acceptable (Needs Revision): Usable but contains clear weaknesses that should be addressed.  
+- 4 - Good (Minor Refinements Needed): Mostly strong, but small areas could be improved.  
+- 5 - Excellent: No changes needed, meets BCBA certification standards.  
+
+### Evaluation Criteria  
+Rate each criterion from 1-5 based on the scoring system above:  
+
+- overall_quality: How strong is the question overall? Are there reduncies between question and answers?
+- topic_alignment: Does the question accurately assess knowledge within the given domain/subdomain?  
+- answer_correctness: Is the correct answer truly the best choice?  
+- difficulty_appropriateness: Is the question well-calibrated to its difficulty level and Bloom's taxonomy?  
+- question_clarity: Is the wording clear, precise, and unambiguous?  
+- distractor_quality: Are the incorrect answers plausible but ultimately incorrect? The distractors shouldn't be obvious. 
+- explanation_quality: Is the rationale thorough, logically sound, and informative?  
+- is_acceptable: (true/false) → False if issues exist, such as redundancy, vague wording, or misleading information.  
+
+---
+
+### Output Format:
+{{
+  "overall_quality": <integer>,
+  "topic_alignment": <integer>,
+  "answer_correctness": <integer>,
+  "difficulty_appropriateness": <integer>,
+  "question_clarity": <integer>,
+  "distractor_quality": <integer>,
+  "explanation_quality": <integer>,
+  "is_acceptable": <boolean>,
+  "justification": "<string>"
+}}
